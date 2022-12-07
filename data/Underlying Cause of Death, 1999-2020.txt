@@ -1,0 +1,1100 @@
+"Notes"	"Ten-Year Age Groups"	"Ten-Year Age Groups Code"	"ICD Sub-Chapter"	"ICD Sub-Chapter Code"	Deaths	Population	Crude Rate
+	"< 1 year"	"1"	"Intestinal infectious diseases"	"A00-A09"	148	3735010	4.0
+	"< 1 year"	"1"	"Other bacterial diseases"	"A30-A49"	151	3735010	4.0
+	"< 1 year"	"1"	"Other viral diseases"	"B25-B34"	67	3735010	1.8
+	"< 1 year"	"1"	"Mycoses"	"B35-B49"	12	3735010	Unreliable
+	"< 1 year"	"1"	"Malignant neoplasms"	"C00-C97"	54	3735010	1.4
+	"< 1 year"	"1"	"Neoplasms of uncertain or unknown behaviour"	"D37-D48"	31	3735010	0.8
+	"< 1 year"	"1"	"Haemolytic anaemias"	"D55-D59"	11	3735010	Unreliable
+	"< 1 year"	"1"	"Coagulation defects, purpura and other haemorrhagic conditions"	"D65-D69"	34	3735010	0.9
+	"< 1 year"	"1"	"Other diseases of blood and blood-forming organs"	"D70-D76"	20	3735010	0.5
+	"< 1 year"	"1"	"Certain disorders involving the immune mechanism"	"D80-D89"	16	3735010	Unreliable
+	"< 1 year"	"1"	"Disorders of other endocrine glands"	"E20-E34"	11	3735010	Unreliable
+	"< 1 year"	"1"	"Malnutrition"	"E40-E46"	14	3735010	Unreliable
+	"< 1 year"	"1"	"Metabolic disorders"	"E70-E88"	117	3735010	3.1
+	"< 1 year"	"1"	"Inflammatory diseases of the central nervous system"	"G00-G09"	53	3735010	1.4
+	"< 1 year"	"1"	"Systemic atrophies primarily affecting the central nervous system"	"G10-G14"	15	3735010	Unreliable
+	"< 1 year"	"1"	"Episodic and paroxysmal disorders"	"G40-G47"	23	3735010	0.6
+	"< 1 year"	"1"	"Diseases of myoneural junction and muscle"	"G70-G72"	30	3735010	0.8
+	"< 1 year"	"1"	"Other disorders of the nervous system"	"G90-G98"	115	3735010	3.1
+	"< 1 year"	"1"	"Ischaemic heart diseases"	"I20-I25"	11	3735010	Unreliable
+	"< 1 year"	"1"	"Pulmonary heart disease and diseases of pulmonary circulation"	"I26-I28"	67	3735010	1.8
+	"< 1 year"	"1"	"Other forms of heart disease"	"I30-I51"	164	3735010	4.4
+	"< 1 year"	"1"	"Cerebrovascular diseases"	"I60-I69"	104	3735010	2.8
+	"< 1 year"	"1"	"Diseases of arteries, arterioles and capillaries"	"I70-I78"	16	3735010	Unreliable
+	"< 1 year"	"1"	"Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified"	"I80-I89"	18	3735010	Unreliable
+	"< 1 year"	"1"	"Influenza and pneumonia"	"J09-J18"	125	3735010	3.3
+	"< 1 year"	"1"	"Other acute lower respiratory infections"	"J20-J22"	12	3735010	Unreliable
+	"< 1 year"	"1"	"Other respiratory diseases principally affecting the interstitium"	"J80-J84"	44	3735010	1.2
+	"< 1 year"	"1"	"Suppurative and necrotic conditions of lower respiratory tract"	"J85-J86"	11	3735010	Unreliable
+	"< 1 year"	"1"	"Other diseases of pleura"	"J90-J94"	13	3735010	Unreliable
+	"< 1 year"	"1"	"Other diseases of the respiratory system"	"J96-J98"	76	3735010	2.0
+	"< 1 year"	"1"	"Hernia"	"K40-K46"	13	3735010	Unreliable
+	"< 1 year"	"1"	"Other diseases of intestines"	"K55-K63"	68	3735010	1.8
+	"< 1 year"	"1"	"Diseases of liver"	"K70-K76"	43	3735010	1.2
+	"< 1 year"	"1"	"Other diseases of the digestive system"	"K90-K92"	12	3735010	Unreliable
+	"< 1 year"	"1"	"Soft tissue disorders"	"M60-M79"	10	3735010	Unreliable
+	"< 1 year"	"1"	"Renal failure"	"N17-N19"	42	3735010	1.1
+	"< 1 year"	"1"	"Newborn affected by maternal factors and by complications of pregnancy, labour and delivery"	"P00-P04"	2111	3735010	56.5
+	"< 1 year"	"1"	"Disorders related to length of gestation and fetal growth"	"P05-P08"	3235	3735010	86.6
+	"< 1 year"	"1"	"Respiratory and cardiovascular disorders specific to the perinatal period"	"P20-P29"	2092	3735010	56.0
+	"< 1 year"	"1"	"Infections specific to the perinatal period"	"P35-P39"	698	3735010	18.7
+	"< 1 year"	"1"	"Haemorrhagic and haematological disorders of newborn"	"P50-P61"	434	3735010	11.6
+	"< 1 year"	"1"	"Digestive system disorders of newborn"	"P76-P78"	399	3735010	10.7
+	"< 1 year"	"1"	"Conditions involving the integument and temperature regulation of newborn"	"P80-P83"	179	3735010	4.8
+	"< 1 year"	"1"	"Other disorders originating in the perinatal period"	"P90-P96"	387	3735010	10.4
+	"< 1 year"	"1"	"Congenital malformations of the nervous system"	"Q00-Q07"	590	3735010	15.8
+	"< 1 year"	"1"	"Congenital malformations of the circulatory system"	"Q20-Q28"	979	3735010	26.2
+	"< 1 year"	"1"	"Congenital malformations of the respiratory system"	"Q30-Q34"	343	3735010	9.2
+	"< 1 year"	"1"	"Other congenital malformations of the digestive system"	"Q38-Q45"	54	3735010	1.4
+	"< 1 year"	"1"	"Congenital malformations of the urinary system"	"Q60-Q64"	391	3735010	10.5
+	"< 1 year"	"1"	"Congenital malformations and deformations of the musculoskeletal system"	"Q65-Q79"	452	3735010	12.1
+	"< 1 year"	"1"	"Other congenital malformations"	"Q80-Q89"	466	3735010	12.5
+	"< 1 year"	"1"	"Chromosomal abnormalities, not elsewhere classified"	"Q90-Q99"	762	3735010	20.4
+	"< 1 year"	"1"	"General symptoms and signs"	"R50-R68"	25	3735010	0.7
+	"< 1 year"	"1"	"Ill-defined and unknown causes of mortality"	"R95-R99"	2453	3735010	65.7
+	"< 1 year"	"1"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	35	3735010	0.9
+	"< 1 year"	"1"	"Transport accidents"	"V01-V99"	77	3735010	2.1
+	"< 1 year"	"1"	"Other external causes of accidental injury"	"W00-X59"	1117	3735010	29.9
+	"< 1 year"	"1"	"Assault"	"X85-Y09"	246	3735010	6.6
+	"< 1 year"	"1"	"Event of undetermined intent"	"Y10-Y34"	107	3735010	2.9
+	"< 1 year"	"1"	"Complications of medical and surgical care"	"Y40-Y84"	11	3735010	Unreliable
+"Total"	"< 1 year"	"1"			19582	3735010	524.3
+	"1-4 years"	"1-4"	"Other bacterial diseases"	"A30-A49"	53	15566282	0.3
+	"1-4 years"	"1-4"	"Other viral diseases"	"B25-B34"	60	15566282	0.4
+	"1-4 years"	"1-4"	"Malignant neoplasms"	"C00-C97"	307	15566282	2.0
+	"1-4 years"	"1-4"	"Neoplasms of uncertain or unknown behaviour"	"D37-D48"	35	15566282	0.2
+	"1-4 years"	"1-4"	"Other diseases of blood and blood-forming organs"	"D70-D76"	12	15566282	Unreliable
+	"1-4 years"	"1-4"	"Certain disorders involving the immune mechanism"	"D80-D89"	13	15566282	Unreliable
+	"1-4 years"	"1-4"	"Metabolic disorders"	"E70-E88"	108	15566282	0.7
+	"1-4 years"	"1-4"	"Inflammatory diseases of the central nervous system"	"G00-G09"	15	15566282	Unreliable
+	"1-4 years"	"1-4"	"Systemic atrophies primarily affecting the central nervous system"	"G10-G14"	13	15566282	Unreliable
+	"1-4 years"	"1-4"	"Other degenerative diseases of the nervous system"	"G30-G31"	10	15566282	Unreliable
+	"1-4 years"	"1-4"	"Episodic and paroxysmal disorders"	"G40-G47"	46	15566282	0.3
+	"1-4 years"	"1-4"	"Diseases of myoneural junction and muscle"	"G70-G72"	16	15566282	Unreliable
+	"1-4 years"	"1-4"	"Cerebral palsy and other paralytic syndromes"	"G80-G83"	22	15566282	0.1
+	"1-4 years"	"1-4"	"Other disorders of the nervous system"	"G90-G98"	53	15566282	0.3
+	"1-4 years"	"1-4"	"Pulmonary heart disease and diseases of pulmonary circulation"	"I26-I28"	15	15566282	Unreliable
+	"1-4 years"	"1-4"	"Other forms of heart disease"	"I30-I51"	93	15566282	0.6
+	"1-4 years"	"1-4"	"Cerebrovascular diseases"	"I60-I69"	55	15566282	0.4
+	"1-4 years"	"1-4"	"Influenza and pneumonia"	"J09-J18"	84	15566282	0.5
+	"1-4 years"	"1-4"	"Other acute lower respiratory infections"	"J20-J22"	18	15566282	Unreliable
+	"1-4 years"	"1-4"	"Chronic lower respiratory diseases"	"J40-J47"	19	15566282	Unreliable
+	"1-4 years"	"1-4"	"Other respiratory diseases principally affecting the interstitium"	"J80-J84"	15	15566282	Unreliable
+	"1-4 years"	"1-4"	"Other diseases of the respiratory system"	"J96-J98"	58	15566282	0.4
+	"1-4 years"	"1-4"	"Other diseases of intestines"	"K55-K63"	18	15566282	Unreliable
+	"1-4 years"	"1-4"	"Respiratory and cardiovascular disorders specific to the perinatal period"	"P20-P29"	29	15566282	0.2
+	"1-4 years"	"1-4"	"Other disorders originating in the perinatal period"	"P90-P96"	11	15566282	Unreliable
+	"1-4 years"	"1-4"	"Congenital malformations of the nervous system"	"Q00-Q07"	82	15566282	0.5
+	"1-4 years"	"1-4"	"Congenital malformations of the circulatory system"	"Q20-Q28"	159	15566282	1.0
+	"1-4 years"	"1-4"	"Other congenital malformations of the digestive system"	"Q38-Q45"	13	15566282	Unreliable
+	"1-4 years"	"1-4"	"Congenital malformations and deformations of the musculoskeletal system"	"Q65-Q79"	10	15566282	Unreliable
+	"1-4 years"	"1-4"	"Other congenital malformations"	"Q80-Q89"	58	15566282	0.4
+	"1-4 years"	"1-4"	"Chromosomal abnormalities, not elsewhere classified"	"Q90-Q99"	47	15566282	0.3
+	"1-4 years"	"1-4"	"Ill-defined and unknown causes of mortality"	"R95-R99"	204	15566282	1.3
+	"1-4 years"	"1-4"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	19	15566282	Unreliable
+	"1-4 years"	"1-4"	"Transport accidents"	"V01-V99"	362	15566282	2.3
+	"1-4 years"	"1-4"	"Other external causes of accidental injury"	"W00-X59"	788	15566282	5.1
+	"1-4 years"	"1-4"	"Assault"	"X85-Y09"	309	15566282	2.0
+	"1-4 years"	"1-4"	"Event of undetermined intent"	"Y10-Y34"	89	15566282	0.6
+	"1-4 years"	"1-4"	"Complications of medical and surgical care"	"Y40-Y84"	16	15566282	Unreliable
+"Total"	"1-4 years"	"1-4"			3529	15566282	22.7
+	"5-14 years"	"5-14"	"Intestinal infectious diseases"	"A00-A09"	12	40992134	Unreliable
+	"5-14 years"	"5-14"	"Other bacterial diseases"	"A30-A49"	42	40992134	0.1
+	"5-14 years"	"5-14"	"Other viral diseases"	"B25-B34"	32	40992134	0.1
+	"5-14 years"	"5-14"	"Malignant neoplasms"	"C00-C97"	792	40992134	1.9
+	"5-14 years"	"5-14"	"Neoplasms of uncertain or unknown behaviour"	"D37-D48"	52	40992134	0.1
+	"5-14 years"	"5-14"	"Haemolytic anaemias"	"D55-D59"	14	40992134	Unreliable
+	"5-14 years"	"5-14"	"Coagulation defects, purpura and other haemorrhagic conditions"	"D65-D69"	14	40992134	Unreliable
+	"5-14 years"	"5-14"	"Other diseases of blood and blood-forming organs"	"D70-D76"	13	40992134	Unreliable
+	"5-14 years"	"5-14"	"Diabetes mellitus"	"E10-E14"	56	40992134	0.1
+	"5-14 years"	"5-14"	"Metabolic disorders"	"E70-E88"	129	40992134	0.3
+	"5-14 years"	"5-14"	"Disorders of psychological development"	"F80-F89"	10	40992134	Unreliable
+	"5-14 years"	"5-14"	"Inflammatory diseases of the central nervous system"	"G00-G09"	22	40992134	0.1
+	"5-14 years"	"5-14"	"Systemic atrophies primarily affecting the central nervous system"	"G10-G14"	29	40992134	0.1
+	"5-14 years"	"5-14"	"Other degenerative diseases of the nervous system"	"G30-G31"	17	40992134	Unreliable
+	"5-14 years"	"5-14"	"Episodic and paroxysmal disorders"	"G40-G47"	99	40992134	0.2
+	"5-14 years"	"5-14"	"Diseases of myoneural junction and muscle"	"G70-G72"	39	40992134	0.1
+	"5-14 years"	"5-14"	"Cerebral palsy and other paralytic syndromes"	"G80-G83"	145	40992134	0.4
+	"5-14 years"	"5-14"	"Other disorders of the nervous system"	"G90-G98"	73	40992134	0.2
+	"5-14 years"	"5-14"	"Pulmonary heart disease and diseases of pulmonary circulation"	"I26-I28"	18	40992134	Unreliable
+	"5-14 years"	"5-14"	"Other forms of heart disease"	"I30-I51"	132	40992134	0.3
+	"5-14 years"	"5-14"	"Cerebrovascular diseases"	"I60-I69"	76	40992134	0.2
+	"5-14 years"	"5-14"	"Influenza and pneumonia"	"J09-J18"	105	40992134	0.3
+	"5-14 years"	"5-14"	"Chronic lower respiratory diseases"	"J40-J47"	147	40992134	0.4
+	"5-14 years"	"5-14"	"Lung diseases due to external agents"	"J60-J70"	12	40992134	Unreliable
+	"5-14 years"	"5-14"	"Other diseases of the respiratory system"	"J96-J98"	46	40992134	0.1
+	"5-14 years"	"5-14"	"Other diseases of intestines"	"K55-K63"	35	40992134	0.1
+	"5-14 years"	"5-14"	"Diseases of liver"	"K70-K76"	12	40992134	Unreliable
+	"5-14 years"	"5-14"	"Disorders of gallbladder, biliary tract and pancreas"	"K80-K86"	14	40992134	Unreliable
+	"5-14 years"	"5-14"	"Congenital malformations of the nervous system"	"Q00-Q07"	84	40992134	0.2
+	"5-14 years"	"5-14"	"Congenital malformations of the circulatory system"	"Q20-Q28"	115	40992134	0.3
+	"5-14 years"	"5-14"	"Other congenital malformations"	"Q80-Q89"	69	40992134	0.2
+	"5-14 years"	"5-14"	"Chromosomal abnormalities, not elsewhere classified"	"Q90-Q99"	37	40992134	0.1
+	"5-14 years"	"5-14"	"General symptoms and signs"	"R50-R68"	27	40992134	0.1
+	"5-14 years"	"5-14"	"Ill-defined and unknown causes of mortality"	"R95-R99"	84	40992134	0.2
+	"5-14 years"	"5-14"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	49	40992134	0.1
+	"5-14 years"	"5-14"	"Transport accidents"	"V01-V99"	951	40992134	2.3
+	"5-14 years"	"5-14"	"Other external causes of accidental injury"	"W00-X59"	604	40992134	1.5
+	"5-14 years"	"5-14"	"Intentional self-harm"	"X60-X84"	600	40992134	1.5
+	"5-14 years"	"5-14"	"Assault"	"X85-Y09"	447	40992134	1.1
+	"5-14 years"	"5-14"	"Event of undetermined intent"	"Y10-Y34"	91	40992134	0.2
+	"5-14 years"	"5-14"	"Complications of medical and surgical care"	"Y40-Y84"	20	40992134	0.0
+	"5-14 years"	"5-14"	"Sequelae of external causes of morbidity and mortality"	"Y85-Y89"	20	40992134	0.0
+"Total"	"5-14 years"	"5-14"			5623	40992134	13.7
+	"15-24 years"	"15-24"	"Intestinal infectious diseases"	"A00-A09"	13	42555684	Unreliable
+	"15-24 years"	"15-24"	"Other bacterial diseases"	"A30-A49"	125	42555684	0.3
+	"15-24 years"	"15-24"	"Human immunodeficiency virus [HIV] disease"	"B20-B24"	53	42555684	0.1
+	"15-24 years"	"15-24"	"Other viral diseases"	"B25-B34"	31	42555684	0.1
+	"15-24 years"	"15-24"	"Mycoses"	"B35-B49"	16	42555684	Unreliable
+	"15-24 years"	"15-24"	"Malignant neoplasms"	"C00-C97"	1306	42555684	3.1
+	"15-24 years"	"15-24"	"Neoplasms of uncertain or unknown behaviour"	"D37-D48"	58	42555684	0.1
+	"15-24 years"	"15-24"	"Haemolytic anaemias"	"D55-D59"	43	42555684	0.1
+	"15-24 years"	"15-24"	"Aplastic and other anaemias"	"D60-D64"	18	42555684	Unreliable
+	"15-24 years"	"15-24"	"Coagulation defects, purpura and other haemorrhagic conditions"	"D65-D69"	30	42555684	0.1
+	"15-24 years"	"15-24"	"Other diseases of blood and blood-forming organs"	"D70-D76"	28	42555684	0.1
+	"15-24 years"	"15-24"	"Certain disorders involving the immune mechanism"	"D80-D89"	19	42555684	Unreliable
+	"15-24 years"	"15-24"	"Disorders of thyroid gland"	"E00-E07"	18	42555684	Unreliable
+	"15-24 years"	"15-24"	"Diabetes mellitus"	"E10-E14"	312	42555684	0.7
+	"15-24 years"	"15-24"	"Disorders of other endocrine glands"	"E20-E34"	19	42555684	Unreliable
+	"15-24 years"	"15-24"	"Malnutrition"	"E40-E46"	14	42555684	Unreliable
+	"15-24 years"	"15-24"	"Obesity and other hyperalimentation"	"E65-E68"	99	42555684	0.2
+	"15-24 years"	"15-24"	"Metabolic disorders"	"E70-E88"	150	42555684	0.4
+	"15-24 years"	"15-24"	"Mental and behavioural disorders due to psychoactive substance use"	"F10-F19"	162	42555684	0.4
+	"15-24 years"	"15-24"	"Disorders of psychological development"	"F80-F89"	26	42555684	0.1
+	"15-24 years"	"15-24"	"Inflammatory diseases of the central nervous system"	"G00-G09"	36	42555684	0.1
+	"15-24 years"	"15-24"	"Systemic atrophies primarily affecting the central nervous system"	"G10-G14"	34	42555684	0.1
+	"15-24 years"	"15-24"	"Other degenerative diseases of the nervous system"	"G30-G31"	11	42555684	Unreliable
+	"15-24 years"	"15-24"	"Episodic and paroxysmal disorders"	"G40-G47"	286	42555684	0.7
+	"15-24 years"	"15-24"	"Diseases of myoneural junction and muscle"	"G70-G72"	133	42555684	0.3
+	"15-24 years"	"15-24"	"Cerebral palsy and other paralytic syndromes"	"G80-G83"	297	42555684	0.7
+	"15-24 years"	"15-24"	"Other disorders of the nervous system"	"G90-G98"	142	42555684	0.3
+	"15-24 years"	"15-24"	"Chronic rheumatic heart diseases"	"I05-I09"	10	42555684	Unreliable
+	"15-24 years"	"15-24"	"Hypertensive diseases"	"I10-I15"	78	42555684	0.2
+	"15-24 years"	"15-24"	"Ischaemic heart diseases"	"I20-I25"	86	42555684	0.2
+	"15-24 years"	"15-24"	"Pulmonary heart disease and diseases of pulmonary circulation"	"I26-I28"	131	42555684	0.3
+	"15-24 years"	"15-24"	"Other forms of heart disease"	"I30-I51"	588	42555684	1.4
+	"15-24 years"	"15-24"	"Cerebrovascular diseases"	"I60-I69"	188	42555684	0.4
+	"15-24 years"	"15-24"	"Diseases of arteries, arterioles and capillaries"	"I70-I78"	54	42555684	0.1
+	"15-24 years"	"15-24"	"Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified"	"I80-I89"	71	42555684	0.2
+	"15-24 years"	"15-24"	"Influenza and pneumonia"	"J09-J18"	185	42555684	0.4
+	"15-24 years"	"15-24"	"Other diseases of upper respiratory tract"	"J30-J39"	10	42555684	Unreliable
+	"15-24 years"	"15-24"	"Chronic lower respiratory diseases"	"J40-J47"	220	42555684	0.5
+	"15-24 years"	"15-24"	"Lung diseases due to external agents"	"J60-J70"	41	42555684	0.1
+	"15-24 years"	"15-24"	"Other respiratory diseases principally affecting the interstitium"	"J80-J84"	28	42555684	0.1
+	"15-24 years"	"15-24"	"Other diseases of the respiratory system"	"J96-J98"	70	42555684	0.2
+	"15-24 years"	"15-24"	"Diseases of oesophagus, stomach and duodenum"	"K20-K31"	12	42555684	Unreliable
+	"15-24 years"	"15-24"	"Other diseases of intestines"	"K55-K63"	72	42555684	0.2
+	"15-24 years"	"15-24"	"Diseases of liver"	"K70-K76"	102	42555684	0.2
+	"15-24 years"	"15-24"	"Disorders of gallbladder, biliary tract and pancreas"	"K80-K86"	55	42555684	0.1
+	"15-24 years"	"15-24"	"Other diseases of the digestive system"	"K90-K92"	12	42555684	Unreliable
+	"15-24 years"	"15-24"	"Other disorders of the skin and subcutaneous tissue"	"L80-L98"	10	42555684	Unreliable
+	"15-24 years"	"15-24"	"Systemic connective tissue disorders"	"M30-M35"	84	42555684	0.2
+	"15-24 years"	"15-24"	"Dorsopathies"	"M40-M54"	10	42555684	Unreliable
+	"15-24 years"	"15-24"	"Soft tissue disorders"	"M60-M79"	10	42555684	Unreliable
+	"15-24 years"	"15-24"	"Renal failure"	"N17-N19"	62	42555684	0.1
+	"15-24 years"	"15-24"	"Other disorders of kidney and ureter"	"N25-N28"	14	42555684	Unreliable
+	"15-24 years"	"15-24"	"Oedema, proteinuria and hypertensive disorders in pregnancy, childbirth and the puerperium"	"O10-O16"	11	42555684	Unreliable
+	"15-24 years"	"15-24"	"Other maternal disorders predominantly related to pregnancy"	"O20-O29"	34	42555684	0.1
+	"15-24 years"	"15-24"	"Complications predominantly related to the puerperium"	"O85-O92"	10	42555684	Unreliable
+	"15-24 years"	"15-24"	"Other obstetric conditions, not elsewhere classified"	"O95-O99"	115	42555684	0.3
+	"15-24 years"	"15-24"	"Congenital malformations of the nervous system"	"Q00-Q07"	86	42555684	0.2
+	"15-24 years"	"15-24"	"Congenital malformations of the circulatory system"	"Q20-Q28"	135	42555684	0.3
+	"15-24 years"	"15-24"	"Congenital malformations and deformations of the musculoskeletal system"	"Q65-Q79"	11	42555684	Unreliable
+	"15-24 years"	"15-24"	"Other congenital malformations"	"Q80-Q89"	78	42555684	0.2
+	"15-24 years"	"15-24"	"Chromosomal abnormalities, not elsewhere classified"	"Q90-Q99"	56	42555684	0.1
+	"15-24 years"	"15-24"	"Symptoms and signs involving the circulatory and respiratory systems"	"R00-R09"	11	42555684	Unreliable
+	"15-24 years"	"15-24"	"General symptoms and signs"	"R50-R68"	130	42555684	0.3
+	"15-24 years"	"15-24"	"Ill-defined and unknown causes of mortality"	"R95-R99"	465	42555684	1.1
+	"15-24 years"	"15-24"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	505	42555684	1.2
+	"15-24 years"	"15-24"	"Transport accidents"	"V01-V99"	7120	42555684	16.7
+	"15-24 years"	"15-24"	"Other external causes of accidental injury"	"W00-X59"	7947	42555684	18.7
+	"15-24 years"	"15-24"	"Intentional self-harm"	"X60-X84"	6058	42555684	14.2
+	"15-24 years"	"15-24"	"Assault"	"X85-Y09"	6451	42555684	15.2
+	"15-24 years"	"15-24"	"Event of undetermined intent"	"Y10-Y34"	451	42555684	1.1
+	"15-24 years"	"15-24"	"Legal intervention and operations of war"	"Y35-Y36"	117	42555684	0.3
+	"15-24 years"	"15-24"	"Complications of medical and surgical care"	"Y40-Y84"	56	42555684	0.1
+	"15-24 years"	"15-24"	"Sequelae of external causes of morbidity and mortality"	"Y85-Y89"	74	42555684	0.2
+"Total"	"15-24 years"	"15-24"			35816	42555684	84.2
+	"25-34 years"	"25-34"	"Intestinal infectious diseases"	"A00-A09"	36	46069646	0.1
+	"25-34 years"	"25-34"	"Tuberculosis"	"A16-A19"	24	46069646	0.1
+	"25-34 years"	"25-34"	"Other bacterial diseases"	"A30-A49"	449	46069646	1.0
+	"25-34 years"	"25-34"	"Viral infections of the central nervous system"	"A80-A89"	10	46069646	Unreliable
+	"25-34 years"	"25-34"	"Viral hepatitis"	"B15-B19"	42	46069646	0.1
+	"25-34 years"	"25-34"	"Human immunodeficiency virus [HIV] disease"	"B20-B24"	468	46069646	1.0
+	"25-34 years"	"25-34"	"Other viral diseases"	"B25-B34"	38	46069646	0.1
+	"25-34 years"	"25-34"	"Mycoses"	"B35-B49"	55	46069646	0.1
+	"25-34 years"	"25-34"	"Sequelae of infectious and parasitic diseases"	"B90-B94"	11	46069646	Unreliable
+	"25-34 years"	"25-34"	"Other infectious diseases"	"B99-B99"	11	46069646	Unreliable
+	"25-34 years"	"25-34"	"Malignant neoplasms"	"C00-C97"	3573	46069646	7.8
+	"25-34 years"	"25-34"	"Benign neoplasms"	"D10-D36"	28	46069646	0.1
+	"25-34 years"	"25-34"	"Neoplasms of uncertain or unknown behaviour"	"D37-D48"	103	46069646	0.2
+	"25-34 years"	"25-34"	"Haemolytic anaemias"	"D55-D59"	121	46069646	0.3
+	"25-34 years"	"25-34"	"Aplastic and other anaemias"	"D60-D64"	29	46069646	0.1
+	"25-34 years"	"25-34"	"Coagulation defects, purpura and other haemorrhagic conditions"	"D65-D69"	76	46069646	0.2
+	"25-34 years"	"25-34"	"Other diseases of blood and blood-forming organs"	"D70-D76"	52	46069646	0.1
+	"25-34 years"	"25-34"	"Certain disorders involving the immune mechanism"	"D80-D89"	46	46069646	0.1
+	"25-34 years"	"25-34"	"Disorders of thyroid gland"	"E00-E07"	37	46069646	0.1
+	"25-34 years"	"25-34"	"Diabetes mellitus"	"E10-E14"	1168	46069646	2.5
+	"25-34 years"	"25-34"	"Other disorders of glucose regulation and pancreatic internal secretion"	"E15-E16"	10	46069646	Unreliable
+	"25-34 years"	"25-34"	"Disorders of other endocrine glands"	"E20-E34"	19	46069646	Unreliable
+	"25-34 years"	"25-34"	"Malnutrition"	"E40-E46"	37	46069646	0.1
+	"25-34 years"	"25-34"	"Obesity and other hyperalimentation"	"E65-E68"	561	46069646	1.2
+	"25-34 years"	"25-34"	"Metabolic disorders"	"E70-E88"	271	46069646	0.6
+	"25-34 years"	"25-34"	"Mental and behavioural disorders due to psychoactive substance use"	"F10-F19"	1575	46069646	3.4
+	"25-34 years"	"25-34"	"Schizophrenia, schizotypal and delusional disorders"	"F20-F29"	16	46069646	Unreliable
+	"25-34 years"	"25-34"	"Behavioural syndromes associated with physiological disturbances and physical factors"	"F50-F59"	17	46069646	Unreliable
+	"25-34 years"	"25-34"	"Disorders of psychological development"	"F80-F89"	26	46069646	0.1
+	"25-34 years"	"25-34"	"Inflammatory diseases of the central nervous system"	"G00-G09"	66	46069646	0.1
+	"25-34 years"	"25-34"	"Systemic atrophies primarily affecting the central nervous system"	"G10-G14"	80	46069646	0.2
+	"25-34 years"	"25-34"	"Other degenerative diseases of the nervous system"	"G30-G31"	18	46069646	Unreliable
+	"25-34 years"	"25-34"	"Demyelinating diseases of the central nervous system"	"G35-G37"	42	46069646	0.1
+	"25-34 years"	"25-34"	"Episodic and paroxysmal disorders"	"G40-G47"	404	46069646	0.9
+	"25-34 years"	"25-34"	"Polyneuropathies and other disorders of the peripheral nervous system"	"G60-G64"	11	46069646	Unreliable
+	"25-34 years"	"25-34"	"Diseases of myoneural junction and muscle"	"G70-G72"	169	46069646	0.4
+	"25-34 years"	"25-34"	"Cerebral palsy and other paralytic syndromes"	"G80-G83"	343	46069646	0.7
+	"25-34 years"	"25-34"	"Other disorders of the nervous system"	"G90-G98"	349	46069646	0.8
+	"25-34 years"	"25-34"	"Chronic rheumatic heart diseases"	"I05-I09"	84	46069646	0.2
+	"25-34 years"	"25-34"	"Hypertensive diseases"	"I10-I15"	795	46069646	1.7
+	"25-34 years"	"25-34"	"Ischaemic heart diseases"	"I20-I25"	997	46069646	2.2
+	"25-34 years"	"25-34"	"Pulmonary heart disease and diseases of pulmonary circulation"	"I26-I28"	418	46069646	0.9
+	"25-34 years"	"25-34"	"Other forms of heart disease"	"I30-I51"	1838	46069646	4.0
+	"25-34 years"	"25-34"	"Cerebrovascular diseases"	"I60-I69"	600	46069646	1.3
+	"25-34 years"	"25-34"	"Diseases of arteries, arterioles and capillaries"	"I70-I78"	189	46069646	0.4
+	"25-34 years"	"25-34"	"Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified"	"I80-I89"	244	46069646	0.5
+	"25-34 years"	"25-34"	"Influenza and pneumonia"	"J09-J18"	578	46069646	1.3
+	"25-34 years"	"25-34"	"Other diseases of upper respiratory tract"	"J30-J39"	12	46069646	Unreliable
+	"25-34 years"	"25-34"	"Chronic lower respiratory diseases"	"J40-J47"	400	46069646	0.9
+	"25-34 years"	"25-34"	"Lung diseases due to external agents"	"J60-J70"	120	46069646	0.3
+	"25-34 years"	"25-34"	"Other respiratory diseases principally affecting the interstitium"	"J80-J84"	93	46069646	0.2
+	"25-34 years"	"25-34"	"Suppurative and necrotic conditions of lower respiratory tract"	"J85-J86"	24	46069646	0.1
+	"25-34 years"	"25-34"	"Other diseases of pleura"	"J90-J94"	12	46069646	Unreliable
+	"25-34 years"	"25-34"	"Other diseases of the respiratory system"	"J96-J98"	138	46069646	0.3
+	"25-34 years"	"25-34"	"Diseases of oesophagus, stomach and duodenum"	"K20-K31"	87	46069646	0.2
+	"25-34 years"	"25-34"	"Hernia"	"K40-K46"	11	46069646	Unreliable
+	"25-34 years"	"25-34"	"Noninfective enteritis and colitis"	"K50-K52"	29	46069646	0.1
+	"25-34 years"	"25-34"	"Other diseases of intestines"	"K55-K63"	142	46069646	0.3
+	"25-34 years"	"25-34"	"Diseases of peritoneum"	"K65-K66"	47	46069646	0.1
+	"25-34 years"	"25-34"	"Diseases of liver"	"K70-K76"	1944	46069646	4.2
+	"25-34 years"	"25-34"	"Disorders of gallbladder, biliary tract and pancreas"	"K80-K86"	304	46069646	0.7
+	"25-34 years"	"25-34"	"Other diseases of the digestive system"	"K90-K92"	60	46069646	0.1
+	"25-34 years"	"25-34"	"Infections of the skin and subcutaneous tissue"	"L00-L08"	32	46069646	0.1
+	"25-34 years"	"25-34"	"Other disorders of the skin and subcutaneous tissue"	"L80-L98"	18	46069646	Unreliable
+	"25-34 years"	"25-34"	"Systemic connective tissue disorders"	"M30-M35"	166	46069646	0.4
+	"25-34 years"	"25-34"	"Soft tissue disorders"	"M60-M79"	48	46069646	0.1
+	"25-34 years"	"25-34"	"Osteopathies and chondropathies"	"M80-M94"	20	46069646	0.0
+	"25-34 years"	"25-34"	"Glomerular diseases"	"N00-N07"	11	46069646	Unreliable
+	"25-34 years"	"25-34"	"Renal tubulo-interstitial diseases"	"N10-N15"	30	46069646	0.1
+	"25-34 years"	"25-34"	"Renal failure"	"N17-N19"	304	46069646	0.7
+	"25-34 years"	"25-34"	"Other disorders of kidney and ureter"	"N25-N28"	47	46069646	0.1
+	"25-34 years"	"25-34"	"Other diseases of urinary system"	"N30-N39"	41	46069646	0.1
+	"25-34 years"	"25-34"	"Oedema, proteinuria and hypertensive disorders in pregnancy, childbirth and the puerperium"	"O10-O16"	43	46069646	0.1
+	"25-34 years"	"25-34"	"Other maternal disorders predominantly related to pregnancy"	"O20-O29"	156	46069646	0.3
+	"25-34 years"	"25-34"	"Maternal care related to the fetus and amniotic cavity and possible delivery problems"	"O30-O48"	21	46069646	0.0
+	"25-34 years"	"25-34"	"Complications of labour and delivery"	"O60-O75"	19	46069646	Unreliable
+	"25-34 years"	"25-34"	"Complications predominantly related to the puerperium"	"O85-O92"	32	46069646	0.1
+	"25-34 years"	"25-34"	"Other obstetric conditions, not elsewhere classified"	"O95-O99"	314	46069646	0.7
+	"25-34 years"	"25-34"	"Congenital malformations of the nervous system"	"Q00-Q07"	70	46069646	0.2
+	"25-34 years"	"25-34"	"Congenital malformations of the circulatory system"	"Q20-Q28"	172	46069646	0.4
+	"25-34 years"	"25-34"	"Other congenital malformations of the digestive system"	"Q38-Q45"	11	46069646	Unreliable
+	"25-34 years"	"25-34"	"Congenital malformations of the urinary system"	"Q60-Q64"	17	46069646	Unreliable
+	"25-34 years"	"25-34"	"Congenital malformations and deformations of the musculoskeletal system"	"Q65-Q79"	19	46069646	Unreliable
+	"25-34 years"	"25-34"	"Other congenital malformations"	"Q80-Q89"	91	46069646	0.2
+	"25-34 years"	"25-34"	"Chromosomal abnormalities, not elsewhere classified"	"Q90-Q99"	67	46069646	0.1
+	"25-34 years"	"25-34"	"Symptoms and signs involving the circulatory and respiratory systems"	"R00-R09"	27	46069646	0.1
+	"25-34 years"	"25-34"	"General symptoms and signs"	"R50-R68"	260	46069646	0.6
+	"25-34 years"	"25-34"	"Ill-defined and unknown causes of mortality"	"R95-R99"	1070	46069646	2.3
+	"25-34 years"	"25-34"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	2260	46069646	4.9
+	"25-34 years"	"25-34"	"Transport accidents"	"V01-V99"	8386	46069646	18.2
+	"25-34 years"	"25-34"	"Other external causes of accidental injury"	"W00-X59"	22828	46069646	49.6
+	"25-34 years"	"25-34"	"Intentional self-harm"	"X60-X84"	8446	46069646	18.3
+	"25-34 years"	"25-34"	"Assault"	"X85-Y09"	7086	46069646	15.4
+	"25-34 years"	"25-34"	"Event of undetermined intent"	"Y10-Y34"	1171	46069646	2.5
+	"25-34 years"	"25-34"	"Legal intervention and operations of war"	"Y35-Y36"	255	46069646	0.6
+	"25-34 years"	"25-34"	"Complications of medical and surgical care"	"Y40-Y84"	98	46069646	0.2
+	"25-34 years"	"25-34"	"Sequelae of external causes of morbidity and mortality"	"Y85-Y89"	155	46069646	0.3
+"Total"	"25-34 years"	"25-34"			73486	46069646	159.5
+	"35-44 years"	"35-44"	"Intestinal infectious diseases"	"A00-A09"	81	42136192	0.2
+	"35-44 years"	"35-44"	"Tuberculosis"	"A16-A19"	29	42136192	0.1
+	"35-44 years"	"35-44"	"Other bacterial diseases"	"A30-A49"	1121	42136192	2.7
+	"35-44 years"	"35-44"	"Viral infections of the central nervous system"	"A80-A89"	17	42136192	Unreliable
+	"35-44 years"	"35-44"	"Viral hepatitis"	"B15-B19"	168	42136192	0.4
+	"35-44 years"	"35-44"	"Human immunodeficiency virus [HIV] disease"	"B20-B24"	770	42136192	1.8
+	"35-44 years"	"35-44"	"Other viral diseases"	"B25-B34"	71	42136192	0.2
+	"35-44 years"	"35-44"	"Mycoses"	"B35-B49"	71	42136192	0.2
+	"35-44 years"	"35-44"	"Protozoal diseases"	"B50-B64"	15	42136192	Unreliable
+	"35-44 years"	"35-44"	"Sequelae of infectious and parasitic diseases"	"B90-B94"	24	42136192	0.1
+	"35-44 years"	"35-44"	"Other infectious diseases"	"B99-B99"	22	42136192	0.1
+	"35-44 years"	"35-44"	"Malignant neoplasms"	"C00-C97"	10730	42136192	25.5
+	"35-44 years"	"35-44"	"Benign neoplasms"	"D10-D36"	54	42136192	0.1
+	"35-44 years"	"35-44"	"Neoplasms of uncertain or unknown behaviour"	"D37-D48"	193	42136192	0.5
+	"35-44 years"	"35-44"	"Haemolytic anaemias"	"D55-D59"	126	42136192	0.3
+	"35-44 years"	"35-44"	"Aplastic and other anaemias"	"D60-D64"	60	42136192	0.1
+	"35-44 years"	"35-44"	"Coagulation defects, purpura and other haemorrhagic conditions"	"D65-D69"	152	42136192	0.4
+	"35-44 years"	"35-44"	"Other diseases of blood and blood-forming organs"	"D70-D76"	56	42136192	0.1
+	"35-44 years"	"35-44"	"Certain disorders involving the immune mechanism"	"D80-D89"	89	42136192	0.2
+	"35-44 years"	"35-44"	"Disorders of thyroid gland"	"E00-E07"	58	42136192	0.1
+	"35-44 years"	"35-44"	"Diabetes mellitus"	"E10-E14"	2904	42136192	6.9
+	"35-44 years"	"35-44"	"Other disorders of glucose regulation and pancreatic internal secretion"	"E15-E16"	19	42136192	Unreliable
+	"35-44 years"	"35-44"	"Disorders of other endocrine glands"	"E20-E34"	25	42136192	0.1
+	"35-44 years"	"35-44"	"Malnutrition"	"E40-E46"	81	42136192	0.2
+	"35-44 years"	"35-44"	"Obesity and other hyperalimentation"	"E65-E68"	1216	42136192	2.9
+	"35-44 years"	"35-44"	"Metabolic disorders"	"E70-E88"	502	42136192	1.2
+	"35-44 years"	"35-44"	"Organic, including symptomatic, mental disorders"	"F01-F09"	18	42136192	Unreliable
+	"35-44 years"	"35-44"	"Mental and behavioural disorders due to psychoactive substance use"	"F10-F19"	2779	42136192	6.6
+	"35-44 years"	"35-44"	"Schizophrenia, schizotypal and delusional disorders"	"F20-F29"	19	42136192	Unreliable
+	"35-44 years"	"35-44"	"Mood [affective] disorders"	"F30-F39"	11	42136192	Unreliable
+	"35-44 years"	"35-44"	"Behavioural syndromes associated with physiological disturbances and physical factors"	"F50-F59"	34	42136192	0.1
+	"35-44 years"	"35-44"	"Mental retardation"	"F70-F79"	17	42136192	Unreliable
+	"35-44 years"	"35-44"	"Disorders of psychological development"	"F80-F89"	13	42136192	Unreliable
+	"35-44 years"	"35-44"	"Inflammatory diseases of the central nervous system"	"G00-G09"	88	42136192	0.2
+	"35-44 years"	"35-44"	"Systemic atrophies primarily affecting the central nervous system"	"G10-G14"	269	42136192	0.6
+	"35-44 years"	"35-44"	"Extrapyramidal and movement disorders"	"G20-G25"	16	42136192	Unreliable
+	"35-44 years"	"35-44"	"Other degenerative diseases of the nervous system"	"G30-G31"	43	42136192	0.1
+	"35-44 years"	"35-44"	"Demyelinating diseases of the central nervous system"	"G35-G37"	191	42136192	0.5
+	"35-44 years"	"35-44"	"Episodic and paroxysmal disorders"	"G40-G47"	403	42136192	1.0
+	"35-44 years"	"35-44"	"Polyneuropathies and other disorders of the peripheral nervous system"	"G60-G64"	22	42136192	0.1
+	"35-44 years"	"35-44"	"Diseases of myoneural junction and muscle"	"G70-G72"	103	42136192	0.2
+	"35-44 years"	"35-44"	"Cerebral palsy and other paralytic syndromes"	"G80-G83"	334	42136192	0.8
+	"35-44 years"	"35-44"	"Other disorders of the nervous system"	"G90-G98"	692	42136192	1.6
+	"35-44 years"	"35-44"	"Chronic rheumatic heart diseases"	"I05-I09"	110	42136192	0.3
+	"35-44 years"	"35-44"	"Hypertensive diseases"	"I10-I15"	2783	42136192	6.6
+	"35-44 years"	"35-44"	"Ischaemic heart diseases"	"I20-I25"	5133	42136192	12.2
+	"35-44 years"	"35-44"	"Pulmonary heart disease and diseases of pulmonary circulation"	"I26-I28"	889	42136192	2.1
+	"35-44 years"	"35-44"	"Other forms of heart disease"	"I30-I51"	3838	42136192	9.1
+	"35-44 years"	"35-44"	"Cerebrovascular diseases"	"I60-I69"	2008	42136192	4.8
+	"35-44 years"	"35-44"	"Diseases of arteries, arterioles and capillaries"	"I70-I78"	539	42136192	1.3
+	"35-44 years"	"35-44"	"Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified"	"I80-I89"	481	42136192	1.1
+	"35-44 years"	"35-44"	"Other and unspecified disorders of the circulatory system"	"I95-I99"	11	42136192	Unreliable
+	"35-44 years"	"35-44"	"Acute upper respiratory infections"	"J00-J06"	19	42136192	Unreliable
+	"35-44 years"	"35-44"	"Influenza and pneumonia"	"J09-J18"	1148	42136192	2.7
+	"35-44 years"	"35-44"	"Other diseases of upper respiratory tract"	"J30-J39"	21	42136192	0.0
+	"35-44 years"	"35-44"	"Chronic lower respiratory diseases"	"J40-J47"	793	42136192	1.9
+	"35-44 years"	"35-44"	"Lung diseases due to external agents"	"J60-J70"	251	42136192	0.6
+	"35-44 years"	"35-44"	"Other respiratory diseases principally affecting the interstitium"	"J80-J84"	228	42136192	0.5
+	"35-44 years"	"35-44"	"Suppurative and necrotic conditions of lower respiratory tract"	"J85-J86"	64	42136192	0.2
+	"35-44 years"	"35-44"	"Other diseases of pleura"	"J90-J94"	25	42136192	0.1
+	"35-44 years"	"35-44"	"Other diseases of the respiratory system"	"J96-J98"	325	42136192	0.8
+	"35-44 years"	"35-44"	"Diseases of oral cavity, salivary glands and jaws"	"K00-K14"	10	42136192	Unreliable
+	"35-44 years"	"35-44"	"Diseases of oesophagus, stomach and duodenum"	"K20-K31"	180	42136192	0.4
+	"35-44 years"	"35-44"	"Diseases of appendix"	"K35-K38"	18	42136192	Unreliable
+	"35-44 years"	"35-44"	"Hernia"	"K40-K46"	45	42136192	0.1
+	"35-44 years"	"35-44"	"Noninfective enteritis and colitis"	"K50-K52"	55	42136192	0.1
+	"35-44 years"	"35-44"	"Other diseases of intestines"	"K55-K63"	353	42136192	0.8
+	"35-44 years"	"35-44"	"Diseases of peritoneum"	"K65-K66"	86	42136192	0.2
+	"35-44 years"	"35-44"	"Diseases of liver"	"K70-K76"	5700	42136192	13.5
+	"35-44 years"	"35-44"	"Disorders of gallbladder, biliary tract and pancreas"	"K80-K86"	506	42136192	1.2
+	"35-44 years"	"35-44"	"Other diseases of the digestive system"	"K90-K92"	222	42136192	0.5
+	"35-44 years"	"35-44"	"Infections of the skin and subcutaneous tissue"	"L00-L08"	83	42136192	0.2
+	"35-44 years"	"35-44"	"Urticaria and erythema"	"L50-L53"	10	42136192	Unreliable
+	"35-44 years"	"35-44"	"Other disorders of the skin and subcutaneous tissue"	"L80-L98"	50	42136192	0.1
+	"35-44 years"	"35-44"	"Arthropathies"	"M00-M25"	31	42136192	0.1
+	"35-44 years"	"35-44"	"Systemic connective tissue disorders"	"M30-M35"	296	42136192	0.7
+	"35-44 years"	"35-44"	"Dorsopathies"	"M40-M54"	22	42136192	0.1
+	"35-44 years"	"35-44"	"Soft tissue disorders"	"M60-M79"	117	42136192	0.3
+	"35-44 years"	"35-44"	"Osteopathies and chondropathies"	"M80-M94"	57	42136192	0.1
+	"35-44 years"	"35-44"	"Glomerular diseases"	"N00-N07"	27	42136192	0.1
+	"35-44 years"	"35-44"	"Renal tubulo-interstitial diseases"	"N10-N15"	44	42136192	0.1
+	"35-44 years"	"35-44"	"Renal failure"	"N17-N19"	825	42136192	2.0
+	"35-44 years"	"35-44"	"Other disorders of kidney and ureter"	"N25-N28"	105	42136192	0.2
+	"35-44 years"	"35-44"	"Other diseases of urinary system"	"N30-N39"	98	42136192	0.2
+	"35-44 years"	"35-44"	"Diseases of male genital organs"	"N40-N50"	20	42136192	0.0
+	"35-44 years"	"35-44"	"Inflammatory diseases of female pelvic organs"	"N70-N76"	12	42136192	Unreliable
+	"35-44 years"	"35-44"	"Noninflammatory disorders of female genital tract"	"N80-N98"	18	42136192	Unreliable
+	"35-44 years"	"35-44"	"Oedema, proteinuria and hypertensive disorders in pregnancy, childbirth and the puerperium"	"O10-O16"	32	42136192	0.1
+	"35-44 years"	"35-44"	"Other maternal disorders predominantly related to pregnancy"	"O20-O29"	128	42136192	0.3
+	"35-44 years"	"35-44"	"Complications of labour and delivery"	"O60-O75"	13	42136192	Unreliable
+	"35-44 years"	"35-44"	"Complications predominantly related to the puerperium"	"O85-O92"	19	42136192	Unreliable
+	"35-44 years"	"35-44"	"Other obstetric conditions, not elsewhere classified"	"O95-O99"	267	42136192	0.6
+	"35-44 years"	"35-44"	"Congenital malformations of the nervous system"	"Q00-Q07"	75	42136192	0.2
+	"35-44 years"	"35-44"	"Congenital malformations of the circulatory system"	"Q20-Q28"	192	42136192	0.5
+	"35-44 years"	"35-44"	"Other congenital malformations of the digestive system"	"Q38-Q45"	17	42136192	Unreliable
+	"35-44 years"	"35-44"	"Congenital malformations of the urinary system"	"Q60-Q64"	31	42136192	0.1
+	"35-44 years"	"35-44"	"Congenital malformations and deformations of the musculoskeletal system"	"Q65-Q79"	19	42136192	Unreliable
+	"35-44 years"	"35-44"	"Other congenital malformations"	"Q80-Q89"	87	42136192	0.2
+	"35-44 years"	"35-44"	"Chromosomal abnormalities, not elsewhere classified"	"Q90-Q99"	72	42136192	0.2
+	"35-44 years"	"35-44"	"Symptoms and signs involving the circulatory and respiratory systems"	"R00-R09"	52	42136192	0.1
+	"35-44 years"	"35-44"	"General symptoms and signs"	"R50-R68"	276	42136192	0.7
+	"35-44 years"	"35-44"	"Ill-defined and unknown causes of mortality"	"R95-R99"	1175	42136192	2.8
+	"35-44 years"	"35-44"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	6084	42136192	14.4
+	"35-44 years"	"35-44"	"Transport accidents"	"V01-V99"	6549	42136192	15.5
+	"35-44 years"	"35-44"	"Other external causes of accidental injury"	"W00-X59"	24355	42136192	57.8
+	"35-44 years"	"35-44"	"Intentional self-harm"	"X60-X84"	7311	42136192	17.4
+	"35-44 years"	"35-44"	"Assault"	"X85-Y09"	4438	42136192	10.5
+	"35-44 years"	"35-44"	"Event of undetermined intent"	"Y10-Y34"	1227	42136192	2.9
+	"35-44 years"	"35-44"	"Legal intervention and operations of war"	"Y35-Y36"	197	42136192	0.5
+	"35-44 years"	"35-44"	"Complications of medical and surgical care"	"Y40-Y84"	197	42136192	0.5
+	"35-44 years"	"35-44"	"Sequelae of external causes of morbidity and mortality"	"Y85-Y89"	216	42136192	0.5
+"Total"	"35-44 years"	"35-44"			104490	42136192	248.0
+	"45-54 years"	"45-54"	"Intestinal infectious diseases"	"A00-A09"	285	40366133	0.7
+	"45-54 years"	"45-54"	"Tuberculosis"	"A16-A19"	55	40366133	0.1
+	"45-54 years"	"45-54"	"Other bacterial diseases"	"A30-A49"	2764	40366133	6.8
+	"45-54 years"	"45-54"	"Viral infections of the central nervous system"	"A80-A89"	47	40366133	0.1
+	"45-54 years"	"45-54"	"Viral infections characterized by skin and mucous membrane lesions"	"B00-B09"	21	40366133	0.1
+	"45-54 years"	"45-54"	"Viral hepatitis"	"B15-B19"	518	40366133	1.3
+	"45-54 years"	"45-54"	"Human immunodeficiency virus [HIV] disease"	"B20-B24"	1165	40366133	2.9
+	"45-54 years"	"45-54"	"Other viral diseases"	"B25-B34"	166	40366133	0.4
+	"45-54 years"	"45-54"	"Mycoses"	"B35-B49"	141	40366133	0.3
+	"45-54 years"	"45-54"	"Protozoal diseases"	"B50-B64"	17	40366133	Unreliable
+	"45-54 years"	"45-54"	"Sequelae of infectious and parasitic diseases"	"B90-B94"	38	40366133	0.1
+	"45-54 years"	"45-54"	"Other infectious diseases"	"B99-B99"	38	40366133	0.1
+	"45-54 years"	"45-54"	"Malignant neoplasms"	"C00-C97"	34589	40366133	85.7
+	"45-54 years"	"45-54"	"Benign neoplasms"	"D10-D36"	107	40366133	0.3
+	"45-54 years"	"45-54"	"Neoplasms of uncertain or unknown behaviour"	"D37-D48"	379	40366133	0.9
+	"45-54 years"	"45-54"	"Nutritional anaemias"	"D50-D53"	18	40366133	Unreliable
+	"45-54 years"	"45-54"	"Haemolytic anaemias"	"D55-D59"	142	40366133	0.4
+	"45-54 years"	"45-54"	"Aplastic and other anaemias"	"D60-D64"	130	40366133	0.3
+	"45-54 years"	"45-54"	"Coagulation defects, purpura and other haemorrhagic conditions"	"D65-D69"	276	40366133	0.7
+	"45-54 years"	"45-54"	"Other diseases of blood and blood-forming organs"	"D70-D76"	93	40366133	0.2
+	"45-54 years"	"45-54"	"Certain disorders involving the immune mechanism"	"D80-D89"	198	40366133	0.5
+	"45-54 years"	"45-54"	"Disorders of thyroid gland"	"E00-E07"	122	40366133	0.3
+	"45-54 years"	"45-54"	"Diabetes mellitus"	"E10-E14"	7546	40366133	18.7
+	"45-54 years"	"45-54"	"Other disorders of glucose regulation and pancreatic internal secretion"	"E15-E16"	43	40366133	0.1
+	"45-54 years"	"45-54"	"Disorders of other endocrine glands"	"E20-E34"	57	40366133	0.1
+	"45-54 years"	"45-54"	"Malnutrition"	"E40-E46"	223	40366133	0.6
+	"45-54 years"	"45-54"	"Other nutritional deficiencies"	"E50-E64"	12	40366133	Unreliable
+	"45-54 years"	"45-54"	"Obesity and other hyperalimentation"	"E65-E68"	1953	40366133	4.8
+	"45-54 years"	"45-54"	"Metabolic disorders"	"E70-E88"	1368	40366133	3.4
+	"45-54 years"	"45-54"	"Organic, including symptomatic, mental disorders"	"F01-F09"	117	40366133	0.3
+	"45-54 years"	"45-54"	"Mental and behavioural disorders due to psychoactive substance use"	"F10-F19"	4197	40366133	10.4
+	"45-54 years"	"45-54"	"Schizophrenia, schizotypal and delusional disorders"	"F20-F29"	54	40366133	0.1
+	"45-54 years"	"45-54"	"Mood [affective] disorders"	"F30-F39"	41	40366133	0.1
+	"45-54 years"	"45-54"	"Neurotic, stress-related and somatoform disorders"	"F40-F48"	25	40366133	0.1
+	"45-54 years"	"45-54"	"Behavioural syndromes associated with physiological disturbances and physical factors"	"F50-F59"	28	40366133	0.1
+	"45-54 years"	"45-54"	"Mental retardation"	"F70-F79"	44	40366133	0.1
+	"45-54 years"	"45-54"	"Disorders of psychological development"	"F80-F89"	16	40366133	Unreliable
+	"45-54 years"	"45-54"	"Inflammatory diseases of the central nervous system"	"G00-G09"	158	40366133	0.4
+	"45-54 years"	"45-54"	"Systemic atrophies primarily affecting the central nervous system"	"G10-G14"	826	40366133	2.0
+	"45-54 years"	"45-54"	"Extrapyramidal and movement disorders"	"G20-G25"	107	40366133	0.3
+	"45-54 years"	"45-54"	"Other degenerative diseases of the nervous system"	"G30-G31"	237	40366133	0.6
+	"45-54 years"	"45-54"	"Demyelinating diseases of the central nervous system"	"G35-G37"	547	40366133	1.4
+	"45-54 years"	"45-54"	"Episodic and paroxysmal disorders"	"G40-G47"	501	40366133	1.2
+	"45-54 years"	"45-54"	"Polyneuropathies and other disorders of the peripheral nervous system"	"G60-G64"	61	40366133	0.2
+	"45-54 years"	"45-54"	"Diseases of myoneural junction and muscle"	"G70-G72"	186	40366133	0.5
+	"45-54 years"	"45-54"	"Cerebral palsy and other paralytic syndromes"	"G80-G83"	406	40366133	1.0
+	"45-54 years"	"45-54"	"Other disorders of the nervous system"	"G90-G98"	1326	40366133	3.3
+	"45-54 years"	"45-54"	"Chronic rheumatic heart diseases"	"I05-I09"	167	40366133	0.4
+	"45-54 years"	"45-54"	"Hypertensive diseases"	"I10-I15"	7133	40366133	17.7
+	"45-54 years"	"45-54"	"Ischaemic heart diseases"	"I20-I25"	18668	40366133	46.2
+	"45-54 years"	"45-54"	"Pulmonary heart disease and diseases of pulmonary circulation"	"I26-I28"	1644	40366133	4.1
+	"45-54 years"	"45-54"	"Other forms of heart disease"	"I30-I51"	8385	40366133	20.8
+	"45-54 years"	"45-54"	"Cerebrovascular diseases"	"I60-I69"	5686	40366133	14.1
+	"45-54 years"	"45-54"	"Diseases of arteries, arterioles and capillaries"	"I70-I78"	1174	40366133	2.9
+	"45-54 years"	"45-54"	"Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified"	"I80-I89"	703	40366133	1.7
+	"45-54 years"	"45-54"	"Other and unspecified disorders of the circulatory system"	"I95-I99"	28	40366133	0.1
+	"45-54 years"	"45-54"	"Influenza and pneumonia"	"J09-J18"	2511	40366133	6.2
+	"45-54 years"	"45-54"	"Other acute lower respiratory infections"	"J20-J22"	20	40366133	0.0
+	"45-54 years"	"45-54"	"Other diseases of upper respiratory tract"	"J30-J39"	50	40366133	0.1
+	"45-54 years"	"45-54"	"Chronic lower respiratory diseases"	"J40-J47"	3538	40366133	8.8
+	"45-54 years"	"45-54"	"Lung diseases due to external agents"	"J60-J70"	601	40366133	1.5
+	"45-54 years"	"45-54"	"Other respiratory diseases principally affecting the interstitium"	"J80-J84"	595	40366133	1.5
+	"45-54 years"	"45-54"	"Suppurative and necrotic conditions of lower respiratory tract"	"J85-J86"	95	40366133	0.2
+	"45-54 years"	"45-54"	"Other diseases of pleura"	"J90-J94"	69	40366133	0.2
+	"45-54 years"	"45-54"	"Other diseases of the respiratory system"	"J96-J98"	878	40366133	2.2
+	"45-54 years"	"45-54"	"Diseases of oral cavity, salivary glands and jaws"	"K00-K14"	13	40366133	Unreliable
+	"45-54 years"	"45-54"	"Diseases of oesophagus, stomach and duodenum"	"K20-K31"	415	40366133	1.0
+	"45-54 years"	"45-54"	"Diseases of appendix"	"K35-K38"	35	40366133	0.1
+	"45-54 years"	"45-54"	"Hernia"	"K40-K46"	96	40366133	0.2
+	"45-54 years"	"45-54"	"Noninfective enteritis and colitis"	"K50-K52"	91	40366133	0.2
+	"45-54 years"	"45-54"	"Other diseases of intestines"	"K55-K63"	860	40366133	2.1
+	"45-54 years"	"45-54"	"Diseases of peritoneum"	"K65-K66"	211	40366133	0.5
+	"45-54 years"	"45-54"	"Diseases of liver"	"K70-K76"	11146	40366133	27.6
+	"45-54 years"	"45-54"	"Disorders of gallbladder, biliary tract and pancreas"	"K80-K86"	736	40366133	1.8
+	"45-54 years"	"45-54"	"Other diseases of the digestive system"	"K90-K92"	537	40366133	1.3
+	"45-54 years"	"45-54"	"Infections of the skin and subcutaneous tissue"	"L00-L08"	246	40366133	0.6
+	"45-54 years"	"45-54"	"Other disorders of the skin and subcutaneous tissue"	"L80-L98"	116	40366133	0.3
+	"45-54 years"	"45-54"	"Arthropathies"	"M00-M25"	130	40366133	0.3
+	"45-54 years"	"45-54"	"Systemic connective tissue disorders"	"M30-M35"	418	40366133	1.0
+	"45-54 years"	"45-54"	"Dorsopathies"	"M40-M54"	84	40366133	0.2
+	"45-54 years"	"45-54"	"Soft tissue disorders"	"M60-M79"	242	40366133	0.6
+	"45-54 years"	"45-54"	"Osteopathies and chondropathies"	"M80-M94"	133	40366133	0.3
+	"45-54 years"	"45-54"	"Glomerular diseases"	"N00-N07"	54	40366133	0.1
+	"45-54 years"	"45-54"	"Renal tubulo-interstitial diseases"	"N10-N15"	106	40366133	0.3
+	"45-54 years"	"45-54"	"Renal failure"	"N17-N19"	2284	40366133	5.7
+	"45-54 years"	"45-54"	"Urolithiasis"	"N20-N23"	34	40366133	0.1
+	"45-54 years"	"45-54"	"Other disorders of kidney and ureter"	"N25-N28"	285	40366133	0.7
+	"45-54 years"	"45-54"	"Other diseases of urinary system"	"N30-N39"	302	40366133	0.7
+	"45-54 years"	"45-54"	"Diseases of male genital organs"	"N40-N50"	51	40366133	0.1
+	"45-54 years"	"45-54"	"Inflammatory diseases of female pelvic organs"	"N70-N76"	21	40366133	0.1
+	"45-54 years"	"45-54"	"Noninflammatory disorders of female genital tract"	"N80-N98"	25	40366133	0.1
+	"45-54 years"	"45-54"	"Congenital malformations of the nervous system"	"Q00-Q07"	77	40366133	0.2
+	"45-54 years"	"45-54"	"Congenital malformations of the circulatory system"	"Q20-Q28"	222	40366133	0.5
+	"45-54 years"	"45-54"	"Other congenital malformations of the digestive system"	"Q38-Q45"	10	40366133	Unreliable
+	"45-54 years"	"45-54"	"Congenital malformations of the urinary system"	"Q60-Q64"	45	40366133	0.1
+	"45-54 years"	"45-54"	"Congenital malformations and deformations of the musculoskeletal system"	"Q65-Q79"	15	40366133	Unreliable
+	"45-54 years"	"45-54"	"Other congenital malformations"	"Q80-Q89"	73	40366133	0.2
+	"45-54 years"	"45-54"	"Chromosomal abnormalities, not elsewhere classified"	"Q90-Q99"	296	40366133	0.7
+	"45-54 years"	"45-54"	"Symptoms and signs involving the circulatory and respiratory systems"	"R00-R09"	156	40366133	0.4
+	"45-54 years"	"45-54"	"Symptoms and signs involving the digestive system and abdomen"	"R10-R19"	10	40366133	Unreliable
+	"45-54 years"	"45-54"	"General symptoms and signs"	"R50-R68"	470	40366133	1.2
+	"45-54 years"	"45-54"	"Ill-defined and unknown causes of mortality"	"R95-R99"	1339	40366133	3.3
+	"45-54 years"	"45-54"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	16973	40366133	42.0
+	"45-54 years"	"45-54"	"Transport accidents"	"V01-V99"	5936	40366133	14.7
+	"45-54 years"	"45-54"	"Other external causes of accidental injury"	"W00-X59"	21658	40366133	53.7
+	"45-54 years"	"45-54"	"Intentional self-harm"	"X60-X84"	7244	40366133	17.9
+	"45-54 years"	"45-54"	"Assault"	"X85-Y09"	2503	40366133	6.2
+	"45-54 years"	"45-54"	"Event of undetermined intent"	"Y10-Y34"	1148	40366133	2.8
+	"45-54 years"	"45-54"	"Legal intervention and operations of war"	"Y35-Y36"	120	40366133	0.3
+	"45-54 years"	"45-54"	"Complications of medical and surgical care"	"Y40-Y84"	442	40366133	1.1
+	"45-54 years"	"45-54"	"Sequelae of external causes of morbidity and mortality"	"Y85-Y89"	290	40366133	0.7
+"Total"	"45-54 years"	"45-54"			191142	40366133	473.5
+	"55-64 years"	"55-64"	"Intestinal infectious diseases"	"A00-A09"	747	42403677	1.8
+	"55-64 years"	"55-64"	"Tuberculosis"	"A16-A19"	117	42403677	0.3
+	"55-64 years"	"55-64"	"Certain zoonotic bacterial diseases"	"A20-A28"	11	42403677	Unreliable
+	"55-64 years"	"55-64"	"Other bacterial diseases"	"A30-A49"	6838	42403677	16.1
+	"55-64 years"	"55-64"	"Viral infections of the central nervous system"	"A80-A89"	194	42403677	0.5
+	"55-64 years"	"55-64"	"Arthropod-borne viral fevers and viral haemorrhagic fevers"	"A90-A99"	14	42403677	Unreliable
+	"55-64 years"	"55-64"	"Viral infections characterized by skin and mucous membrane lesions"	"B00-B09"	62	42403677	0.1
+	"55-64 years"	"55-64"	"Viral hepatitis"	"B15-B19"	1530	42403677	3.6
+	"55-64 years"	"55-64"	"Human immunodeficiency virus [HIV] disease"	"B20-B24"	1542	42403677	3.6
+	"55-64 years"	"55-64"	"Other viral diseases"	"B25-B34"	371	42403677	0.9
+	"55-64 years"	"55-64"	"Mycoses"	"B35-B49"	269	42403677	0.6
+	"55-64 years"	"55-64"	"Protozoal diseases"	"B50-B64"	41	42403677	0.1
+	"55-64 years"	"55-64"	"Sequelae of infectious and parasitic diseases"	"B90-B94"	123	42403677	0.3
+	"55-64 years"	"55-64"	"Other infectious diseases"	"B99-B99"	61	42403677	0.1
+	"55-64 years"	"55-64"	"Malignant neoplasms"	"C00-C97"	110243	42403677	260.0
+	"55-64 years"	"55-64"	"In situ neoplasms"	"D00-D09"	26	42403677	0.1
+	"55-64 years"	"55-64"	"Benign neoplasms"	"D10-D36"	206	42403677	0.5
+	"55-64 years"	"55-64"	"Neoplasms of uncertain or unknown behaviour"	"D37-D48"	1307	42403677	3.1
+	"55-64 years"	"55-64"	"Nutritional anaemias"	"D50-D53"	36	42403677	0.1
+	"55-64 years"	"55-64"	"Haemolytic anaemias"	"D55-D59"	114	42403677	0.3
+	"55-64 years"	"55-64"	"Aplastic and other anaemias"	"D60-D64"	403	42403677	1.0
+	"55-64 years"	"55-64"	"Coagulation defects, purpura and other haemorrhagic conditions"	"D65-D69"	494	42403677	1.2
+	"55-64 years"	"55-64"	"Other diseases of blood and blood-forming organs"	"D70-D76"	215	42403677	0.5
+	"55-64 years"	"55-64"	"Certain disorders involving the immune mechanism"	"D80-D89"	420	42403677	1.0
+	"55-64 years"	"55-64"	"Disorders of thyroid gland"	"E00-E07"	217	42403677	0.5
+	"55-64 years"	"55-64"	"Diabetes mellitus"	"E10-E14"	18002	42403677	42.5
+	"55-64 years"	"55-64"	"Other disorders of glucose regulation and pancreatic internal secretion"	"E15-E16"	106	42403677	0.2
+	"55-64 years"	"55-64"	"Disorders of other endocrine glands"	"E20-E34"	105	42403677	0.2
+	"55-64 years"	"55-64"	"Malnutrition"	"E40-E46"	751	42403677	1.8
+	"55-64 years"	"55-64"	"Other nutritional deficiencies"	"E50-E64"	64	42403677	0.2
+	"55-64 years"	"55-64"	"Obesity and other hyperalimentation"	"E65-E68"	2702	42403677	6.4
+	"55-64 years"	"55-64"	"Metabolic disorders"	"E70-E88"	4208	42403677	9.9
+	"55-64 years"	"55-64"	"Organic, including symptomatic, mental disorders"	"F01-F09"	1317	42403677	3.1
+	"55-64 years"	"55-64"	"Mental and behavioural disorders due to psychoactive substance use"	"F10-F19"	6378	42403677	15.0
+	"55-64 years"	"55-64"	"Schizophrenia, schizotypal and delusional disorders"	"F20-F29"	128	42403677	0.3
+	"55-64 years"	"55-64"	"Mood [affective] disorders"	"F30-F39"	104	42403677	0.2
+	"55-64 years"	"55-64"	"Neurotic, stress-related and somatoform disorders"	"F40-F48"	43	42403677	0.1
+	"55-64 years"	"55-64"	"Behavioural syndromes associated with physiological disturbances and physical factors"	"F50-F59"	62	42403677	0.1
+	"55-64 years"	"55-64"	"Mental retardation"	"F70-F79"	100	42403677	0.2
+	"55-64 years"	"55-64"	"Disorders of psychological development"	"F80-F89"	23	42403677	0.1
+	"55-64 years"	"55-64"	"Unspecified mental disorder"	"F99-F99"	10	42403677	Unreliable
+	"55-64 years"	"55-64"	"Inflammatory diseases of the central nervous system"	"G00-G09"	261	42403677	0.6
+	"55-64 years"	"55-64"	"Systemic atrophies primarily affecting the central nervous system"	"G10-G14"	2116	42403677	5.0
+	"55-64 years"	"55-64"	"Extrapyramidal and movement disorders"	"G20-G25"	1044	42403677	2.5
+	"55-64 years"	"55-64"	"Other degenerative diseases of the nervous system"	"G30-G31"	2446	42403677	5.8
+	"55-64 years"	"55-64"	"Demyelinating diseases of the central nervous system"	"G35-G37"	1229	42403677	2.9
+	"55-64 years"	"55-64"	"Episodic and paroxysmal disorders"	"G40-G47"	838	42403677	2.0
+	"55-64 years"	"55-64"	"Nerve, nerve root and plexus disorders"	"G50-G58"	10	42403677	Unreliable
+	"55-64 years"	"55-64"	"Polyneuropathies and other disorders of the peripheral nervous system"	"G60-G64"	120	42403677	0.3
+	"55-64 years"	"55-64"	"Diseases of myoneural junction and muscle"	"G70-G72"	372	42403677	0.9
+	"55-64 years"	"55-64"	"Cerebral palsy and other paralytic syndromes"	"G80-G83"	580	42403677	1.4
+	"55-64 years"	"55-64"	"Other disorders of the nervous system"	"G90-G98"	2775	42403677	6.5
+	"55-64 years"	"55-64"	"Diseases of middle ear and mastoid"	"H65-H74"	11	42403677	Unreliable
+	"55-64 years"	"55-64"	"Chronic rheumatic heart diseases"	"I05-I09"	436	42403677	1.0
+	"55-64 years"	"55-64"	"Hypertensive diseases"	"I10-I15"	16450	42403677	38.8
+	"55-64 years"	"55-64"	"Ischaemic heart diseases"	"I20-I25"	53125	42403677	125.3
+	"55-64 years"	"55-64"	"Pulmonary heart disease and diseases of pulmonary circulation"	"I26-I28"	2765	42403677	6.5
+	"55-64 years"	"55-64"	"Other forms of heart disease"	"I30-I51"	20755	42403677	48.9
+	"55-64 years"	"55-64"	"Cerebrovascular diseases"	"I60-I69"	14153	42403677	33.4
+	"55-64 years"	"55-64"	"Diseases of arteries, arterioles and capillaries"	"I70-I78"	2868	42403677	6.8
+	"55-64 years"	"55-64"	"Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified"	"I80-I89"	982	42403677	2.3
+	"55-64 years"	"55-64"	"Other and unspecified disorders of the circulatory system"	"I95-I99"	94	42403677	0.2
+	"55-64 years"	"55-64"	"Acute upper respiratory infections"	"J00-J06"	26	42403677	0.1
+	"55-64 years"	"55-64"	"Influenza and pneumonia"	"J09-J18"	6295	42403677	14.8
+	"55-64 years"	"55-64"	"Other acute lower respiratory infections"	"J20-J22"	33	42403677	0.1
+	"55-64 years"	"55-64"	"Other diseases of upper respiratory tract"	"J30-J39"	102	42403677	0.2
+	"55-64 years"	"55-64"	"Chronic lower respiratory diseases"	"J40-J47"	18816	42403677	44.4
+	"55-64 years"	"55-64"	"Lung diseases due to external agents"	"J60-J70"	1736	42403677	4.1
+	"55-64 years"	"55-64"	"Other respiratory diseases principally affecting the interstitium"	"J80-J84"	2140	42403677	5.0
+	"55-64 years"	"55-64"	"Suppurative and necrotic conditions of lower respiratory tract"	"J85-J86"	208	42403677	0.5
+	"55-64 years"	"55-64"	"Other diseases of pleura"	"J90-J94"	209	42403677	0.5
+	"55-64 years"	"55-64"	"Other diseases of the respiratory system"	"J96-J98"	2444	42403677	5.8
+	"55-64 years"	"55-64"	"Diseases of oral cavity, salivary glands and jaws"	"K00-K14"	36	42403677	0.1
+	"55-64 years"	"55-64"	"Diseases of oesophagus, stomach and duodenum"	"K20-K31"	1085	42403677	2.6
+	"55-64 years"	"55-64"	"Diseases of appendix"	"K35-K38"	78	42403677	0.2
+	"55-64 years"	"55-64"	"Hernia"	"K40-K46"	240	42403677	0.6
+	"55-64 years"	"55-64"	"Noninfective enteritis and colitis"	"K50-K52"	229	42403677	0.5
+	"55-64 years"	"55-64"	"Other diseases of intestines"	"K55-K63"	2609	42403677	6.2
+	"55-64 years"	"55-64"	"Diseases of peritoneum"	"K65-K66"	422	42403677	1.0
+	"55-64 years"	"55-64"	"Diseases of liver"	"K70-K76"	19598	42403677	46.2
+	"55-64 years"	"55-64"	"Disorders of gallbladder, biliary tract and pancreas"	"K80-K86"	1419	42403677	3.3
+	"55-64 years"	"55-64"	"Other diseases of the digestive system"	"K90-K92"	1316	42403677	3.1
+	"55-64 years"	"55-64"	"Infections of the skin and subcutaneous tissue"	"L00-L08"	489	42403677	1.2
+	"55-64 years"	"55-64"	"Papulosquamous disorders"	"L40-L44"	17	42403677	Unreliable
+	"55-64 years"	"55-64"	"Urticaria and erythema"	"L50-L53"	25	42403677	0.1
+	"55-64 years"	"55-64"	"Other disorders of the skin and subcutaneous tissue"	"L80-L98"	268	42403677	0.6
+	"55-64 years"	"55-64"	"Arthropathies"	"M00-M25"	364	42403677	0.9
+	"55-64 years"	"55-64"	"Systemic connective tissue disorders"	"M30-M35"	722	42403677	1.7
+	"55-64 years"	"55-64"	"Dorsopathies"	"M40-M54"	200	42403677	0.5
+	"55-64 years"	"55-64"	"Soft tissue disorders"	"M60-M79"	456	42403677	1.1
+	"55-64 years"	"55-64"	"Osteopathies and chondropathies"	"M80-M94"	411	42403677	1.0
+	"55-64 years"	"55-64"	"Glomerular diseases"	"N00-N07"	106	42403677	0.2
+	"55-64 years"	"55-64"	"Renal tubulo-interstitial diseases"	"N10-N15"	216	42403677	0.5
+	"55-64 years"	"55-64"	"Renal failure"	"N17-N19"	6090	42403677	14.4
+	"55-64 years"	"55-64"	"Urolithiasis"	"N20-N23"	84	42403677	0.2
+	"55-64 years"	"55-64"	"Other disorders of kidney and ureter"	"N25-N28"	794	42403677	1.9
+	"55-64 years"	"55-64"	"Other diseases of urinary system"	"N30-N39"	1083	42403677	2.6
+	"55-64 years"	"55-64"	"Diseases of male genital organs"	"N40-N50"	120	42403677	0.3
+	"55-64 years"	"55-64"	"Disorders of breast"	"N60-N64"	12	42403677	Unreliable
+	"55-64 years"	"55-64"	"Inflammatory diseases of female pelvic organs"	"N70-N76"	26	42403677	0.1
+	"55-64 years"	"55-64"	"Noninflammatory disorders of female genital tract"	"N80-N98"	26	42403677	0.1
+	"55-64 years"	"55-64"	"Congenital malformations of the nervous system"	"Q00-Q07"	60	42403677	0.1
+	"55-64 years"	"55-64"	"Congenital malformations of the circulatory system"	"Q20-Q28"	230	42403677	0.5
+	"55-64 years"	"55-64"	"Other congenital malformations of the digestive system"	"Q38-Q45"	12	42403677	Unreliable
+	"55-64 years"	"55-64"	"Congenital malformations of the urinary system"	"Q60-Q64"	83	42403677	0.2
+	"55-64 years"	"55-64"	"Congenital malformations and deformations of the musculoskeletal system"	"Q65-Q79"	17	42403677	Unreliable
+	"55-64 years"	"55-64"	"Other congenital malformations"	"Q80-Q89"	101	42403677	0.2
+	"55-64 years"	"55-64"	"Chromosomal abnormalities, not elsewhere classified"	"Q90-Q99"	749	42403677	1.8
+	"55-64 years"	"55-64"	"Symptoms and signs involving the circulatory and respiratory systems"	"R00-R09"	431	42403677	1.0
+	"55-64 years"	"55-64"	"Symptoms and signs involving the digestive system and abdomen"	"R10-R19"	41	42403677	0.1
+	"55-64 years"	"55-64"	"Symptoms and signs involving the nervous and musculoskeletal systems"	"R25-R29"	10	42403677	Unreliable
+	"55-64 years"	"55-64"	"General symptoms and signs"	"R50-R68"	1039	42403677	2.5
+	"55-64 years"	"55-64"	"Abnormal findings on diagnostic imaging and in function studies, without diagnosis"	"R90-R94"	38	42403677	0.1
+	"55-64 years"	"55-64"	"Ill-defined and unknown causes of mortality"	"R95-R99"	1944	42403677	4.6
+	"55-64 years"	"55-64"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	42104	42403677	99.3
+	"55-64 years"	"55-64"	"Transport accidents"	"V01-V99"	6641	42403677	15.7
+	"55-64 years"	"55-64"	"Other external causes of accidental injury"	"W00-X59"	21841	42403677	51.5
+	"55-64 years"	"55-64"	"Intentional self-harm"	"X60-X84"	7149	42403677	16.9
+	"55-64 years"	"55-64"	"Assault"	"X85-Y09"	1705	42403677	4.0
+	"55-64 years"	"55-64"	"Event of undetermined intent"	"Y10-Y34"	1072	42403677	2.5
+	"55-64 years"	"55-64"	"Legal intervention and operations of war"	"Y35-Y36"	61	42403677	0.1
+	"55-64 years"	"55-64"	"Complications of medical and surgical care"	"Y40-Y84"	928	42403677	2.2
+	"55-64 years"	"55-64"	"Sequelae of external causes of morbidity and mortality"	"Y85-Y89"	520	42403677	1.2
+"Total"	"55-64 years"	"55-64"			440549	42403677	1038.9
+	"65-74 years"	"65-74"	"Intestinal infectious diseases"	"A00-A09"	1457	32549398	4.5
+	"65-74 years"	"65-74"	"Tuberculosis"	"A16-A19"	153	32549398	0.5
+	"65-74 years"	"65-74"	"Certain zoonotic bacterial diseases"	"A20-A28"	19	32549398	Unreliable
+	"65-74 years"	"65-74"	"Other bacterial diseases"	"A30-A49"	10536	32549398	32.4
+	"65-74 years"	"65-74"	"Infections with a predominantly sexual mode of transmission"	"A50-A64"	15	32549398	Unreliable
+	"65-74 years"	"65-74"	"Viral infections of the central nervous system"	"A80-A89"	249	32549398	0.8
+	"65-74 years"	"65-74"	"Arthropod-borne viral fevers and viral haemorrhagic fevers"	"A90-A99"	18	32549398	Unreliable
+	"65-74 years"	"65-74"	"Viral infections characterized by skin and mucous membrane lesions"	"B00-B09"	115	32549398	0.4
+	"65-74 years"	"65-74"	"Viral hepatitis"	"B15-B19"	1227	32549398	3.8
+	"65-74 years"	"65-74"	"Human immunodeficiency virus [HIV] disease"	"B20-B24"	833	32549398	2.6
+	"65-74 years"	"65-74"	"Other viral diseases"	"B25-B34"	672	32549398	2.1
+	"65-74 years"	"65-74"	"Mycoses"	"B35-B49"	399	32549398	1.2
+	"65-74 years"	"65-74"	"Protozoal diseases"	"B50-B64"	61	32549398	0.2
+	"65-74 years"	"65-74"	"Sequelae of infectious and parasitic diseases"	"B90-B94"	214	32549398	0.7
+	"65-74 years"	"65-74"	"Other infectious diseases"	"B99-B99"	113	32549398	0.3
+	"65-74 years"	"65-74"	"Malignant neoplasms"	"C00-C97"	175464	32549398	539.1
+	"65-74 years"	"65-74"	"In situ neoplasms"	"D00-D09"	32	32549398	0.1
+	"65-74 years"	"65-74"	"Benign neoplasms"	"D10-D36"	320	32549398	1.0
+	"65-74 years"	"65-74"	"Neoplasms of uncertain or unknown behaviour"	"D37-D48"	2926	32549398	9.0
+	"65-74 years"	"65-74"	"Nutritional anaemias"	"D50-D53"	84	32549398	0.3
+	"65-74 years"	"65-74"	"Haemolytic anaemias"	"D55-D59"	99	32549398	0.3
+	"65-74 years"	"65-74"	"Aplastic and other anaemias"	"D60-D64"	845	32549398	2.6
+	"65-74 years"	"65-74"	"Coagulation defects, purpura and other haemorrhagic conditions"	"D65-D69"	640	32549398	2.0
+	"65-74 years"	"65-74"	"Other diseases of blood and blood-forming organs"	"D70-D76"	324	32549398	1.0
+	"65-74 years"	"65-74"	"Certain disorders involving the immune mechanism"	"D80-D89"	457	32549398	1.4
+	"65-74 years"	"65-74"	"Disorders of thyroid gland"	"E00-E07"	337	32549398	1.0
+	"65-74 years"	"65-74"	"Diabetes mellitus"	"E10-E14"	27213	32549398	83.6
+	"65-74 years"	"65-74"	"Other disorders of glucose regulation and pancreatic internal secretion"	"E15-E16"	157	32549398	0.5
+	"65-74 years"	"65-74"	"Disorders of other endocrine glands"	"E20-E34"	136	32549398	0.4
+	"65-74 years"	"65-74"	"Malnutrition"	"E40-E46"	1818	32549398	5.6
+	"65-74 years"	"65-74"	"Other nutritional deficiencies"	"E50-E64"	77	32549398	0.2
+	"65-74 years"	"65-74"	"Obesity and other hyperalimentation"	"E65-E68"	2332	32549398	7.2
+	"65-74 years"	"65-74"	"Metabolic disorders"	"E70-E88"	7254	32549398	22.3
+	"65-74 years"	"65-74"	"Organic, including symptomatic, mental disorders"	"F01-F09"	8554	32549398	26.3
+	"65-74 years"	"65-74"	"Mental and behavioural disorders due to psychoactive substance use"	"F10-F19"	3288	32549398	10.1
+	"65-74 years"	"65-74"	"Schizophrenia, schizotypal and delusional disorders"	"F20-F29"	236	32549398	0.7
+	"65-74 years"	"65-74"	"Mood [affective] disorders"	"F30-F39"	171	32549398	0.5
+	"65-74 years"	"65-74"	"Neurotic, stress-related and somatoform disorders"	"F40-F48"	64	32549398	0.2
+	"65-74 years"	"65-74"	"Behavioural syndromes associated with physiological disturbances and physical factors"	"F50-F59"	73	32549398	0.2
+	"65-74 years"	"65-74"	"Mental retardation"	"F70-F79"	77	32549398	0.2
+	"65-74 years"	"65-74"	"Disorders of psychological development"	"F80-F89"	18	32549398	Unreliable
+	"65-74 years"	"65-74"	"Inflammatory diseases of the central nervous system"	"G00-G09"	342	32549398	1.1
+	"65-74 years"	"65-74"	"Systemic atrophies primarily affecting the central nervous system"	"G10-G14"	3104	32549398	9.5
+	"65-74 years"	"65-74"	"Extrapyramidal and movement disorders"	"G20-G25"	6826	32549398	21.0
+	"65-74 years"	"65-74"	"Other degenerative diseases of the nervous system"	"G30-G31"	13759	32549398	42.3
+	"65-74 years"	"65-74"	"Demyelinating diseases of the central nervous system"	"G35-G37"	1602	32549398	4.9
+	"65-74 years"	"65-74"	"Episodic and paroxysmal disorders"	"G40-G47"	926	32549398	2.8
+	"65-74 years"	"65-74"	"Polyneuropathies and other disorders of the peripheral nervous system"	"G60-G64"	233	32549398	0.7
+	"65-74 years"	"65-74"	"Diseases of myoneural junction and muscle"	"G70-G72"	483	32549398	1.5
+	"65-74 years"	"65-74"	"Cerebral palsy and other paralytic syndromes"	"G80-G83"	642	32549398	2.0
+	"65-74 years"	"65-74"	"Other disorders of the nervous system"	"G90-G98"	3310	32549398	10.2
+	"65-74 years"	"65-74"	"Diseases of middle ear and mastoid"	"H65-H74"	15	32549398	Unreliable
+	"65-74 years"	"65-74"	"Chronic rheumatic heart diseases"	"I05-I09"	702	32549398	2.2
+	"65-74 years"	"65-74"	"Hypertensive diseases"	"I10-I15"	21562	32549398	66.2
+	"65-74 years"	"65-74"	"Ischaemic heart diseases"	"I20-I25"	81703	32549398	251.0
+	"65-74 years"	"65-74"	"Pulmonary heart disease and diseases of pulmonary circulation"	"I26-I28"	3923	32549398	12.1
+	"65-74 years"	"65-74"	"Other forms of heart disease"	"I30-I51"	34694	32549398	106.6
+	"65-74 years"	"65-74"	"Cerebrovascular diseases"	"I60-I69"	26363	32549398	81.0
+	"65-74 years"	"65-74"	"Diseases of arteries, arterioles and capillaries"	"I70-I78"	5134	32549398	15.8
+	"65-74 years"	"65-74"	"Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified"	"I80-I89"	938	32549398	2.9
+	"65-74 years"	"65-74"	"Other and unspecified disorders of the circulatory system"	"I95-I99"	149	32549398	0.5
+	"65-74 years"	"65-74"	"Acute upper respiratory infections"	"J00-J06"	32	32549398	0.1
+	"65-74 years"	"65-74"	"Influenza and pneumonia"	"J09-J18"	10460	32549398	32.1
+	"65-74 years"	"65-74"	"Other acute lower respiratory infections"	"J20-J22"	35	32549398	0.1
+	"65-74 years"	"65-74"	"Other diseases of upper respiratory tract"	"J30-J39"	110	32549398	0.3
+	"65-74 years"	"65-74"	"Chronic lower respiratory diseases"	"J40-J47"	38559	32549398	118.5
+	"65-74 years"	"65-74"	"Lung diseases due to external agents"	"J60-J70"	3419	32549398	10.5
+	"65-74 years"	"65-74"	"Other respiratory diseases principally affecting the interstitium"	"J80-J84"	5148	32549398	15.8
+	"65-74 years"	"65-74"	"Suppurative and necrotic conditions of lower respiratory tract"	"J85-J86"	218	32549398	0.7
+	"65-74 years"	"65-74"	"Other diseases of pleura"	"J90-J94"	361	32549398	1.1
+	"65-74 years"	"65-74"	"Other diseases of the respiratory system"	"J96-J98"	4480	32549398	13.8
+	"65-74 years"	"65-74"	"Diseases of oral cavity, salivary glands and jaws"	"K00-K14"	49	32549398	0.2
+	"65-74 years"	"65-74"	"Diseases of oesophagus, stomach and duodenum"	"K20-K31"	1572	32549398	4.8
+	"65-74 years"	"65-74"	"Diseases of appendix"	"K35-K38"	86	32549398	0.3
+	"65-74 years"	"65-74"	"Hernia"	"K40-K46"	378	32549398	1.2
+	"65-74 years"	"65-74"	"Noninfective enteritis and colitis"	"K50-K52"	348	32549398	1.1
+	"65-74 years"	"65-74"	"Other diseases of intestines"	"K55-K63"	4921	32549398	15.1
+	"65-74 years"	"65-74"	"Diseases of peritoneum"	"K65-K66"	593	32549398	1.8
+	"65-74 years"	"65-74"	"Diseases of liver"	"K70-K76"	16003	32549398	49.2
+	"65-74 years"	"65-74"	"Disorders of gallbladder, biliary tract and pancreas"	"K80-K86"	1976	32549398	6.1
+	"65-74 years"	"65-74"	"Other diseases of the digestive system"	"K90-K92"	1999	32549398	6.1
+	"65-74 years"	"65-74"	"Infections of the skin and subcutaneous tissue"	"L00-L08"	722	32549398	2.2
+	"65-74 years"	"65-74"	"Bullous disorders"	"L10-L13"	23	32549398	0.1
+	"65-74 years"	"65-74"	"Urticaria and erythema"	"L50-L53"	25	32549398	0.1
+	"65-74 years"	"65-74"	"Other disorders of the skin and subcutaneous tissue"	"L80-L98"	476	32549398	1.5
+	"65-74 years"	"65-74"	"Arthropathies"	"M00-M25"	724	32549398	2.2
+	"65-74 years"	"65-74"	"Systemic connective tissue disorders"	"M30-M35"	846	32549398	2.6
+	"65-74 years"	"65-74"	"Dorsopathies"	"M40-M54"	412	32549398	1.3
+	"65-74 years"	"65-74"	"Soft tissue disorders"	"M60-M79"	586	32549398	1.8
+	"65-74 years"	"65-74"	"Osteopathies and chondropathies"	"M80-M94"	803	32549398	2.5
+	"65-74 years"	"65-74"	"Glomerular diseases"	"N00-N07"	203	32549398	0.6
+	"65-74 years"	"65-74"	"Renal tubulo-interstitial diseases"	"N10-N15"	397	32549398	1.2
+	"65-74 years"	"65-74"	"Renal failure"	"N17-N19"	11249	32549398	34.6
+	"65-74 years"	"65-74"	"Urolithiasis"	"N20-N23"	142	32549398	0.4
+	"65-74 years"	"65-74"	"Other disorders of kidney and ureter"	"N25-N28"	1458	32549398	4.5
+	"65-74 years"	"65-74"	"Other diseases of urinary system"	"N30-N39"	2280	32549398	7.0
+	"65-74 years"	"65-74"	"Diseases of male genital organs"	"N40-N50"	217	32549398	0.7
+	"65-74 years"	"65-74"	"Disorders of breast"	"N60-N64"	20	32549398	0.1
+	"65-74 years"	"65-74"	"Inflammatory diseases of female pelvic organs"	"N70-N76"	40	32549398	0.1
+	"65-74 years"	"65-74"	"Noninflammatory disorders of female genital tract"	"N80-N98"	62	32549398	0.2
+	"65-74 years"	"65-74"	"Congenital malformations of the nervous system"	"Q00-Q07"	41	32549398	0.1
+	"65-74 years"	"65-74"	"Congenital malformations of the circulatory system"	"Q20-Q28"	238	32549398	0.7
+	"65-74 years"	"65-74"	"Other congenital malformations of the digestive system"	"Q38-Q45"	21	32549398	0.1
+	"65-74 years"	"65-74"	"Congenital malformations of the urinary system"	"Q60-Q64"	95	32549398	0.3
+	"65-74 years"	"65-74"	"Congenital malformations and deformations of the musculoskeletal system"	"Q65-Q79"	19	32549398	Unreliable
+	"65-74 years"	"65-74"	"Other congenital malformations"	"Q80-Q89"	88	32549398	0.3
+	"65-74 years"	"65-74"	"Chromosomal abnormalities, not elsewhere classified"	"Q90-Q99"	192	32549398	0.6
+	"65-74 years"	"65-74"	"Symptoms and signs involving the circulatory and respiratory systems"	"R00-R09"	761	32549398	2.3
+	"65-74 years"	"65-74"	"Symptoms and signs involving the digestive system and abdomen"	"R10-R19"	77	32549398	0.2
+	"65-74 years"	"65-74"	"Symptoms and signs involving the nervous and musculoskeletal systems"	"R25-R29"	15	32549398	Unreliable
+	"65-74 years"	"65-74"	"Symptoms and signs involving cognition, perception, emotional state and behaviour"	"R40-R46"	15	32549398	Unreliable
+	"65-74 years"	"65-74"	"General symptoms and signs"	"R50-R68"	1790	32549398	5.5
+	"65-74 years"	"65-74"	"Abnormal findings on diagnostic imaging and in function studies, without diagnosis"	"R90-R94"	62	32549398	0.2
+	"65-74 years"	"65-74"	"Ill-defined and unknown causes of mortality"	"R95-R99"	1860	32549398	5.7
+	"65-74 years"	"65-74"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	76295	32549398	234.4
+	"65-74 years"	"65-74"	"Transport accidents"	"V01-V99"	4381	32549398	13.5
+	"65-74 years"	"65-74"	"Other external causes of accidental injury"	"W00-X59"	13872	32549398	42.6
+	"65-74 years"	"65-74"	"Intentional self-harm"	"X60-X84"	4709	32549398	14.5
+	"65-74 years"	"65-74"	"Assault"	"X85-Y09"	722	32549398	2.2
+	"65-74 years"	"65-74"	"Event of undetermined intent"	"Y10-Y34"	410	32549398	1.3
+	"65-74 years"	"65-74"	"Legal intervention and operations of war"	"Y35-Y36"	20	32549398	0.1
+	"65-74 years"	"65-74"	"Complications of medical and surgical care"	"Y40-Y84"	1385	32549398	4.3
+	"65-74 years"	"65-74"	"Sequelae of external causes of morbidity and mortality"	"Y85-Y89"	411	32549398	1.3
+"Total"	"65-74 years"	"65-74"			674507	32549398	2072.3
+	"75-84 years"	"75-84"	"Intestinal infectious diseases"	"A00-A09"	1956	16451547	11.9
+	"75-84 years"	"75-84"	"Tuberculosis"	"A16-A19"	126	16451547	0.8
+	"75-84 years"	"75-84"	"Certain zoonotic bacterial diseases"	"A20-A28"	12	16451547	Unreliable
+	"75-84 years"	"75-84"	"Other bacterial diseases"	"A30-A49"	11399	16451547	69.3
+	"75-84 years"	"75-84"	"Viral infections of the central nervous system"	"A80-A89"	145	16451547	0.9
+	"75-84 years"	"75-84"	"Arthropod-borne viral fevers and viral haemorrhagic fevers"	"A90-A99"	20	16451547	0.1
+	"75-84 years"	"75-84"	"Viral infections characterized by skin and mucous membrane lesions"	"B00-B09"	155	16451547	0.9
+	"75-84 years"	"75-84"	"Viral hepatitis"	"B15-B19"	307	16451547	1.9
+	"75-84 years"	"75-84"	"Human immunodeficiency virus [HIV] disease"	"B20-B24"	242	16451547	1.5
+	"75-84 years"	"75-84"	"Other viral diseases"	"B25-B34"	895	16451547	5.4
+	"75-84 years"	"75-84"	"Mycoses"	"B35-B49"	252	16451547	1.5
+	"75-84 years"	"75-84"	"Protozoal diseases"	"B50-B64"	56	16451547	0.3
+	"75-84 years"	"75-84"	"Sequelae of infectious and parasitic diseases"	"B90-B94"	267	16451547	1.6
+	"75-84 years"	"75-84"	"Other infectious diseases"	"B99-B99"	115	16451547	0.7
+	"75-84 years"	"75-84"	"Malignant neoplasms"	"C00-C97"	162876	16451547	990.0
+	"75-84 years"	"75-84"	"In situ neoplasms"	"D00-D09"	39	16451547	0.2
+	"75-84 years"	"75-84"	"Benign neoplasms"	"D10-D36"	446	16451547	2.7
+	"75-84 years"	"75-84"	"Neoplasms of uncertain or unknown behaviour"	"D37-D48"	4596	16451547	27.9
+	"75-84 years"	"75-84"	"Nutritional anaemias"	"D50-D53"	119	16451547	0.7
+	"75-84 years"	"75-84"	"Haemolytic anaemias"	"D55-D59"	108	16451547	0.7
+	"75-84 years"	"75-84"	"Aplastic and other anaemias"	"D60-D64"	1080	16451547	6.6
+	"75-84 years"	"75-84"	"Coagulation defects, purpura and other haemorrhagic conditions"	"D65-D69"	626	16451547	3.8
+	"75-84 years"	"75-84"	"Other diseases of blood and blood-forming organs"	"D70-D76"	240	16451547	1.5
+	"75-84 years"	"75-84"	"Certain disorders involving the immune mechanism"	"D80-D89"	329	16451547	2.0
+	"75-84 years"	"75-84"	"Disorders of thyroid gland"	"E00-E07"	449	16451547	2.7
+	"75-84 years"	"75-84"	"Diabetes mellitus"	"E10-E14"	25445	16451547	154.7
+	"75-84 years"	"75-84"	"Other disorders of glucose regulation and pancreatic internal secretion"	"E15-E16"	135	16451547	0.8
+	"75-84 years"	"75-84"	"Disorders of other endocrine glands"	"E20-E34"	164	16451547	1.0
+	"75-84 years"	"75-84"	"Malnutrition"	"E40-E46"	3475	16451547	21.1
+	"75-84 years"	"75-84"	"Other nutritional deficiencies"	"E50-E64"	60	16451547	0.4
+	"75-84 years"	"75-84"	"Obesity and other hyperalimentation"	"E65-E68"	1068	16451547	6.5
+	"75-84 years"	"75-84"	"Metabolic disorders"	"E70-E88"	8756	16451547	53.2
+	"75-84 years"	"75-84"	"Organic, including symptomatic, mental disorders"	"F01-F09"	31687	16451547	192.6
+	"75-84 years"	"75-84"	"Mental and behavioural disorders due to psychoactive substance use"	"F10-F19"	898	16451547	5.5
+	"75-84 years"	"75-84"	"Schizophrenia, schizotypal and delusional disorders"	"F20-F29"	155	16451547	0.9
+	"75-84 years"	"75-84"	"Mood [affective] disorders"	"F30-F39"	208	16451547	1.3
+	"75-84 years"	"75-84"	"Neurotic, stress-related and somatoform disorders"	"F40-F48"	68	16451547	0.4
+	"75-84 years"	"75-84"	"Behavioural syndromes associated with physiological disturbances and physical factors"	"F50-F59"	82	16451547	0.5
+	"75-84 years"	"75-84"	"Mental retardation"	"F70-F79"	32	16451547	0.2
+	"75-84 years"	"75-84"	"Inflammatory diseases of the central nervous system"	"G00-G09"	269	16451547	1.6
+	"75-84 years"	"75-84"	"Systemic atrophies primarily affecting the central nervous system"	"G10-G14"	2089	16451547	12.7
+	"75-84 years"	"75-84"	"Extrapyramidal and movement disorders"	"G20-G25"	18123	16451547	110.2
+	"75-84 years"	"75-84"	"Other degenerative diseases of the nervous system"	"G30-G31"	50102	16451547	304.5
+	"75-84 years"	"75-84"	"Demyelinating diseases of the central nervous system"	"G35-G37"	1008	16451547	6.1
+	"75-84 years"	"75-84"	"Episodic and paroxysmal disorders"	"G40-G47"	723	16451547	4.4
+	"75-84 years"	"75-84"	"Nerve, nerve root and plexus disorders"	"G50-G58"	11	16451547	Unreliable
+	"75-84 years"	"75-84"	"Polyneuropathies and other disorders of the peripheral nervous system"	"G60-G64"	237	16451547	1.4
+	"75-84 years"	"75-84"	"Diseases of myoneural junction and muscle"	"G70-G72"	674	16451547	4.1
+	"75-84 years"	"75-84"	"Cerebral palsy and other paralytic syndromes"	"G80-G83"	403	16451547	2.4
+	"75-84 years"	"75-84"	"Other disorders of the nervous system"	"G90-G98"	2893	16451547	17.6
+	"75-84 years"	"75-84"	"Chronic rheumatic heart diseases"	"I05-I09"	998	16451547	6.1
+	"75-84 years"	"75-84"	"Hypertensive diseases"	"I10-I15"	25396	16451547	154.4
+	"75-84 years"	"75-84"	"Ischaemic heart diseases"	"I20-I25"	95669	16451547	581.5
+	"75-84 years"	"75-84"	"Pulmonary heart disease and diseases of pulmonary circulation"	"I26-I28"	4435	16451547	27.0
+	"75-84 years"	"75-84"	"Other forms of heart disease"	"I30-I51"	50757	16451547	308.5
+	"75-84 years"	"75-84"	"Cerebrovascular diseases"	"I60-I69"	43252	16451547	262.9
+	"75-84 years"	"75-84"	"Diseases of arteries, arterioles and capillaries"	"I70-I78"	6185	16451547	37.6
+	"75-84 years"	"75-84"	"Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified"	"I80-I89"	718	16451547	4.4
+	"75-84 years"	"75-84"	"Other and unspecified disorders of the circulatory system"	"I95-I99"	195	16451547	1.2
+	"75-84 years"	"75-84"	"Acute upper respiratory infections"	"J00-J06"	44	16451547	0.3
+	"75-84 years"	"75-84"	"Influenza and pneumonia"	"J09-J18"	13832	16451547	84.1
+	"75-84 years"	"75-84"	"Other acute lower respiratory infections"	"J20-J22"	51	16451547	0.3
+	"75-84 years"	"75-84"	"Other diseases of upper respiratory tract"	"J30-J39"	140	16451547	0.9
+	"75-84 years"	"75-84"	"Chronic lower respiratory diseases"	"J40-J47"	49363	16451547	300.1
+	"75-84 years"	"75-84"	"Lung diseases due to external agents"	"J60-J70"	5224	16451547	31.8
+	"75-84 years"	"75-84"	"Other respiratory diseases principally affecting the interstitium"	"J80-J84"	7546	16451547	45.9
+	"75-84 years"	"75-84"	"Suppurative and necrotic conditions of lower respiratory tract"	"J85-J86"	227	16451547	1.4
+	"75-84 years"	"75-84"	"Other diseases of pleura"	"J90-J94"	558	16451547	3.4
+	"75-84 years"	"75-84"	"Other diseases of the respiratory system"	"J96-J98"	5246	16451547	31.9
+	"75-84 years"	"75-84"	"Diseases of oral cavity, salivary glands and jaws"	"K00-K14"	77	16451547	0.5
+	"75-84 years"	"75-84"	"Diseases of oesophagus, stomach and duodenum"	"K20-K31"	1864	16451547	11.3
+	"75-84 years"	"75-84"	"Diseases of appendix"	"K35-K38"	118	16451547	0.7
+	"75-84 years"	"75-84"	"Hernia"	"K40-K46"	584	16451547	3.5
+	"75-84 years"	"75-84"	"Noninfective enteritis and colitis"	"K50-K52"	341	16451547	2.1
+	"75-84 years"	"75-84"	"Other diseases of intestines"	"K55-K63"	6286	16451547	38.2
+	"75-84 years"	"75-84"	"Diseases of peritoneum"	"K65-K66"	558	16451547	3.4
+	"75-84 years"	"75-84"	"Diseases of liver"	"K70-K76"	8320	16451547	50.6
+	"75-84 years"	"75-84"	"Disorders of gallbladder, biliary tract and pancreas"	"K80-K86"	2362	16451547	14.4
+	"75-84 years"	"75-84"	"Other diseases of the digestive system"	"K90-K92"	2700	16451547	16.4
+	"75-84 years"	"75-84"	"Infections of the skin and subcutaneous tissue"	"L00-L08"	739	16451547	4.5
+	"75-84 years"	"75-84"	"Bullous disorders"	"L10-L13"	51	16451547	0.3
+	"75-84 years"	"75-84"	"Urticaria and erythema"	"L50-L53"	31	16451547	0.2
+	"75-84 years"	"75-84"	"Other disorders of the skin and subcutaneous tissue"	"L80-L98"	623	16451547	3.8
+	"75-84 years"	"75-84"	"Arthropathies"	"M00-M25"	954	16451547	5.8
+	"75-84 years"	"75-84"	"Systemic connective tissue disorders"	"M30-M35"	763	16451547	4.6
+	"75-84 years"	"75-84"	"Dorsopathies"	"M40-M54"	460	16451547	2.8
+	"75-84 years"	"75-84"	"Soft tissue disorders"	"M60-M79"	689	16451547	4.2
+	"75-84 years"	"75-84"	"Osteopathies and chondropathies"	"M80-M94"	905	16451547	5.5
+	"75-84 years"	"75-84"	"Glomerular diseases"	"N00-N07"	280	16451547	1.7
+	"75-84 years"	"75-84"	"Renal tubulo-interstitial diseases"	"N10-N15"	484	16451547	2.9
+	"75-84 years"	"75-84"	"Renal failure"	"N17-N19"	14401	16451547	87.5
+	"75-84 years"	"75-84"	"Urolithiasis"	"N20-N23"	204	16451547	1.2
+	"75-84 years"	"75-84"	"Other disorders of kidney and ureter"	"N25-N28"	1807	16451547	11.0
+	"75-84 years"	"75-84"	"Other diseases of urinary system"	"N30-N39"	3886	16451547	23.6
+	"75-84 years"	"75-84"	"Diseases of male genital organs"	"N40-N50"	298	16451547	1.8
+	"75-84 years"	"75-84"	"Disorders of breast"	"N60-N64"	16	16451547	Unreliable
+	"75-84 years"	"75-84"	"Inflammatory diseases of female pelvic organs"	"N70-N76"	46	16451547	0.3
+	"75-84 years"	"75-84"	"Noninflammatory disorders of female genital tract"	"N80-N98"	64	16451547	0.4
+	"75-84 years"	"75-84"	"Congenital malformations of the nervous system"	"Q00-Q07"	19	16451547	Unreliable
+	"75-84 years"	"75-84"	"Congenital malformations of the circulatory system"	"Q20-Q28"	204	16451547	1.2
+	"75-84 years"	"75-84"	"Other congenital malformations of the digestive system"	"Q38-Q45"	32	16451547	0.2
+	"75-84 years"	"75-84"	"Congenital malformations of the urinary system"	"Q60-Q64"	109	16451547	0.7
+	"75-84 years"	"75-84"	"Congenital malformations and deformations of the musculoskeletal system"	"Q65-Q79"	14	16451547	Unreliable
+	"75-84 years"	"75-84"	"Other congenital malformations"	"Q80-Q89"	53	16451547	0.3
+	"75-84 years"	"75-84"	"Chromosomal abnormalities, not elsewhere classified"	"Q90-Q99"	24	16451547	0.1
+	"75-84 years"	"75-84"	"Symptoms and signs involving the circulatory and respiratory systems"	"R00-R09"	921	16451547	5.6
+	"75-84 years"	"75-84"	"Symptoms and signs involving the digestive system and abdomen"	"R10-R19"	153	16451547	0.9
+	"75-84 years"	"75-84"	"Symptoms and signs involving the nervous and musculoskeletal systems"	"R25-R29"	40	16451547	0.2
+	"75-84 years"	"75-84"	"Symptoms and signs involving cognition, perception, emotional state and behaviour"	"R40-R46"	41	16451547	0.2
+	"75-84 years"	"75-84"	"Symptoms and signs involving speech and voice"	"R47-R49"	19	16451547	Unreliable
+	"75-84 years"	"75-84"	"General symptoms and signs"	"R50-R68"	2946	16451547	17.9
+	"75-84 years"	"75-84"	"Abnormal findings on diagnostic imaging and in function studies, without diagnosis"	"R90-R94"	121	16451547	0.7
+	"75-84 years"	"75-84"	"Ill-defined and unknown causes of mortality"	"R95-R99"	1428	16451547	8.7
+	"75-84 years"	"75-84"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	97049	16451547	589.9
+	"75-84 years"	"75-84"	"Transport accidents"	"V01-V99"	2784	16451547	16.9
+	"75-84 years"	"75-84"	"Other external causes of accidental injury"	"W00-X59"	15590	16451547	94.8
+	"75-84 years"	"75-84"	"Intentional self-harm"	"X60-X84"	3032	16451547	18.4
+	"75-84 years"	"75-84"	"Assault"	"X85-Y09"	321	16451547	2.0
+	"75-84 years"	"75-84"	"Event of undetermined intent"	"Y10-Y34"	139	16451547	0.8
+	"75-84 years"	"75-84"	"Complications of medical and surgical care"	"Y40-Y84"	1260	16451547	7.7
+	"75-84 years"	"75-84"	"Sequelae of external causes of morbidity and mortality"	"Y85-Y89"	297	16451547	1.8
+"Total"	"75-84 years"	"75-84"			822084	16451547	4997.0
+	"85+ years"	"85+"	"Intestinal infectious diseases"	"A00-A09"	2182	6658420	32.8
+	"85+ years"	"85+"	"Tuberculosis"	"A16-A19"	87	6658420	1.3
+	"85+ years"	"85+"	"Other bacterial diseases"	"A30-A49"	10332	6658420	155.2
+	"85+ years"	"85+"	"Infections with a predominantly sexual mode of transmission"	"A50-A64"	13	6658420	Unreliable
+	"85+ years"	"85+"	"Viral infections of the central nervous system"	"A80-A89"	45	6658420	0.7
+	"85+ years"	"85+"	"Viral infections characterized by skin and mucous membrane lesions"	"B00-B09"	154	6658420	2.3
+	"85+ years"	"85+"	"Viral hepatitis"	"B15-B19"	141	6658420	2.1
+	"85+ years"	"85+"	"Human immunodeficiency virus [HIV] disease"	"B20-B24"	40	6658420	0.6
+	"85+ years"	"85+"	"Other viral diseases"	"B25-B34"	1050	6658420	15.8
+	"85+ years"	"85+"	"Mycoses"	"B35-B49"	113	6658420	1.7
+	"85+ years"	"85+"	"Protozoal diseases"	"B50-B64"	18	6658420	Unreliable
+	"85+ years"	"85+"	"Sequelae of infectious and parasitic diseases"	"B90-B94"	210	6658420	3.2
+	"85+ years"	"85+"	"Other infectious diseases"	"B99-B99"	144	6658420	2.2
+	"85+ years"	"85+"	"Malignant neoplasms"	"C00-C97"	102413	6658420	1538.1
+	"85+ years"	"85+"	"In situ neoplasms"	"D00-D09"	38	6658420	0.6
+	"85+ years"	"85+"	"Benign neoplasms"	"D10-D36"	427	6658420	6.4
+	"85+ years"	"85+"	"Neoplasms of uncertain or unknown behaviour"	"D37-D48"	4799	6658420	72.1
+	"85+ years"	"85+"	"Nutritional anaemias"	"D50-D53"	226	6658420	3.4
+	"85+ years"	"85+"	"Haemolytic anaemias"	"D55-D59"	107	6658420	1.6
+	"85+ years"	"85+"	"Aplastic and other anaemias"	"D60-D64"	1676	6658420	25.2
+	"85+ years"	"85+"	"Coagulation defects, purpura and other haemorrhagic conditions"	"D65-D69"	486	6658420	7.3
+	"85+ years"	"85+"	"Other diseases of blood and blood-forming organs"	"D70-D76"	195	6658420	2.9
+	"85+ years"	"85+"	"Certain disorders involving the immune mechanism"	"D80-D89"	159	6658420	2.4
+	"85+ years"	"85+"	"Disorders of thyroid gland"	"E00-E07"	1105	6658420	16.6
+	"85+ years"	"85+"	"Diabetes mellitus"	"E10-E14"	19536	6658420	293.4
+	"85+ years"	"85+"	"Other disorders of glucose regulation and pancreatic internal secretion"	"E15-E16"	76	6658420	1.1
+	"85+ years"	"85+"	"Disorders of other endocrine glands"	"E20-E34"	200	6658420	3.0
+	"85+ years"	"85+"	"Malnutrition"	"E40-E46"	7916	6658420	118.9
+	"85+ years"	"85+"	"Other nutritional deficiencies"	"E50-E64"	121	6658420	1.8
+	"85+ years"	"85+"	"Obesity and other hyperalimentation"	"E65-E68"	274	6658420	4.1
+	"85+ years"	"85+"	"Metabolic disorders"	"E70-E88"	10538	6658420	158.3
+	"85+ years"	"85+"	"Organic, including symptomatic, mental disorders"	"F01-F09"	84470	6658420	1268.6
+	"85+ years"	"85+"	"Mental and behavioural disorders due to psychoactive substance use"	"F10-F19"	265	6658420	4.0
+	"85+ years"	"85+"	"Schizophrenia, schizotypal and delusional disorders"	"F20-F29"	75	6658420	1.1
+	"85+ years"	"85+"	"Mood [affective] disorders"	"F30-F39"	277	6658420	4.2
+	"85+ years"	"85+"	"Neurotic, stress-related and somatoform disorders"	"F40-F48"	86	6658420	1.3
+	"85+ years"	"85+"	"Behavioural syndromes associated with physiological disturbances and physical factors"	"F50-F59"	111	6658420	1.7
+	"85+ years"	"85+"	"Mental retardation"	"F70-F79"	14	6658420	Unreliable
+	"85+ years"	"85+"	"Behavioural and emotional disorders with onset usually occurring in childhood and adolescence"	"F90-F98"	12	6658420	Unreliable
+	"85+ years"	"85+"	"Inflammatory diseases of the central nervous system"	"G00-G09"	152	6658420	2.3
+	"85+ years"	"85+"	"Systemic atrophies primarily affecting the central nervous system"	"G10-G14"	497	6658420	7.5
+	"85+ years"	"85+"	"Extrapyramidal and movement disorders"	"G20-G25"	16080	6658420	241.5
+	"85+ years"	"85+"	"Other degenerative diseases of the nervous system"	"G30-G31"	112379	6658420	1687.8
+	"85+ years"	"85+"	"Demyelinating diseases of the central nervous system"	"G35-G37"	317	6658420	4.8
+	"85+ years"	"85+"	"Episodic and paroxysmal disorders"	"G40-G47"	518	6658420	7.8
+	"85+ years"	"85+"	"Nerve, nerve root and plexus disorders"	"G50-G58"	19	6658420	Unreliable
+	"85+ years"	"85+"	"Polyneuropathies and other disorders of the peripheral nervous system"	"G60-G64"	199	6658420	3.0
+	"85+ years"	"85+"	"Diseases of myoneural junction and muscle"	"G70-G72"	467	6658420	7.0
+	"85+ years"	"85+"	"Cerebral palsy and other paralytic syndromes"	"G80-G83"	217	6658420	3.3
+	"85+ years"	"85+"	"Other disorders of the nervous system"	"G90-G98"	2124	6658420	31.9
+	"85+ years"	"85+"	"Diseases of middle ear and mastoid"	"H65-H74"	13	6658420	Unreliable
+	"85+ years"	"85+"	"Acute rheumatic fever"	"I00-I02"	11	6658420	Unreliable
+	"85+ years"	"85+"	"Chronic rheumatic heart diseases"	"I05-I09"	1332	6658420	20.0
+	"85+ years"	"85+"	"Hypertensive diseases"	"I10-I15"	45794	6658420	687.8
+	"85+ years"	"85+"	"Ischaemic heart diseases"	"I20-I25"	127398	6658420	1913.3
+	"85+ years"	"85+"	"Pulmonary heart disease and diseases of pulmonary circulation"	"I26-I28"	5081	6658420	76.3
+	"85+ years"	"85+"	"Other forms of heart disease"	"I30-I51"	91539	6658420	1374.8
+	"85+ years"	"85+"	"Cerebrovascular diseases"	"I60-I69"	67777	6658420	1017.9
+	"85+ years"	"85+"	"Diseases of arteries, arterioles and capillaries"	"I70-I78"	7933	6658420	119.1
+	"85+ years"	"85+"	"Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified"	"I80-I89"	602	6658420	9.0
+	"85+ years"	"85+"	"Other and unspecified disorders of the circulatory system"	"I95-I99"	252	6658420	3.8
+	"85+ years"	"85+"	"Acute upper respiratory infections"	"J00-J06"	59	6658420	0.9
+	"85+ years"	"85+"	"Influenza and pneumonia"	"J09-J18"	18219	6658420	273.6
+	"85+ years"	"85+"	"Other acute lower respiratory infections"	"J20-J22"	104	6658420	1.6
+	"85+ years"	"85+"	"Other diseases of upper respiratory tract"	"J30-J39"	129	6658420	1.9
+	"85+ years"	"85+"	"Chronic lower respiratory diseases"	"J40-J47"	40790	6658420	612.6
+	"85+ years"	"85+"	"Lung diseases due to external agents"	"J60-J70"	7696	6658420	115.6
+	"85+ years"	"85+"	"Other respiratory diseases principally affecting the interstitium"	"J80-J84"	5936	6658420	89.2
+	"85+ years"	"85+"	"Suppurative and necrotic conditions of lower respiratory tract"	"J85-J86"	140	6658420	2.1
+	"85+ years"	"85+"	"Other diseases of pleura"	"J90-J94"	793	6658420	11.9
+	"85+ years"	"85+"	"Other diseases of the respiratory system"	"J96-J98"	5520	6658420	82.9
+	"85+ years"	"85+"	"Diseases of oral cavity, salivary glands and jaws"	"K00-K14"	122	6658420	1.8
+	"85+ years"	"85+"	"Diseases of oesophagus, stomach and duodenum"	"K20-K31"	2389	6658420	35.9
+	"85+ years"	"85+"	"Diseases of appendix"	"K35-K38"	93	6658420	1.4
+	"85+ years"	"85+"	"Hernia"	"K40-K46"	822	6658420	12.3
+	"85+ years"	"85+"	"Noninfective enteritis and colitis"	"K50-K52"	285	6658420	4.3
+	"85+ years"	"85+"	"Other diseases of intestines"	"K55-K63"	7422	6658420	111.5
+	"85+ years"	"85+"	"Diseases of peritoneum"	"K65-K66"	429	6658420	6.4
+	"85+ years"	"85+"	"Diseases of liver"	"K70-K76"	2930	6658420	44.0
+	"85+ years"	"85+"	"Disorders of gallbladder, biliary tract and pancreas"	"K80-K86"	2812	6658420	42.2
+	"85+ years"	"85+"	"Other diseases of the digestive system"	"K90-K92"	3934	6658420	59.1
+	"85+ years"	"85+"	"Infections of the skin and subcutaneous tissue"	"L00-L08"	831	6658420	12.5
+	"85+ years"	"85+"	"Bullous disorders"	"L10-L13"	50	6658420	0.8
+	"85+ years"	"85+"	"Urticaria and erythema"	"L50-L53"	24	6658420	0.4
+	"85+ years"	"85+"	"Other disorders of the skin and subcutaneous tissue"	"L80-L98"	617	6658420	9.3
+	"85+ years"	"85+"	"Arthropathies"	"M00-M25"	1027	6658420	15.4
+	"85+ years"	"85+"	"Systemic connective tissue disorders"	"M30-M35"	397	6658420	6.0
+	"85+ years"	"85+"	"Dorsopathies"	"M40-M54"	524	6658420	7.9
+	"85+ years"	"85+"	"Soft tissue disorders"	"M60-M79"	960	6658420	14.4
+	"85+ years"	"85+"	"Osteopathies and chondropathies"	"M80-M94"	1284	6658420	19.3
+	"85+ years"	"85+"	"Glomerular diseases"	"N00-N07"	296	6658420	4.4
+	"85+ years"	"85+"	"Renal tubulo-interstitial diseases"	"N10-N15"	551	6658420	8.3
+	"85+ years"	"85+"	"Renal failure"	"N17-N19"	16205	6658420	243.4
+	"85+ years"	"85+"	"Urolithiasis"	"N20-N23"	256	6658420	3.8
+	"85+ years"	"85+"	"Other disorders of kidney and ureter"	"N25-N28"	1984	6658420	29.8
+	"85+ years"	"85+"	"Other diseases of urinary system"	"N30-N39"	5755	6658420	86.4
+	"85+ years"	"85+"	"Diseases of male genital organs"	"N40-N50"	452	6658420	6.8
+	"85+ years"	"85+"	"Disorders of breast"	"N60-N64"	56	6658420	0.8
+	"85+ years"	"85+"	"Inflammatory diseases of female pelvic organs"	"N70-N76"	23	6658420	0.3
+	"85+ years"	"85+"	"Noninflammatory disorders of female genital tract"	"N80-N98"	106	6658420	1.6
+	"85+ years"	"85+"	"Congenital malformations of the circulatory system"	"Q20-Q28"	171	6658420	2.6
+	"85+ years"	"85+"	"Other congenital malformations of the digestive system"	"Q38-Q45"	40	6658420	0.6
+	"85+ years"	"85+"	"Congenital malformations of the urinary system"	"Q60-Q64"	77	6658420	1.2
+	"85+ years"	"85+"	"Other congenital malformations"	"Q80-Q89"	35	6658420	0.5
+	"85+ years"	"85+"	"Symptoms and signs involving the circulatory and respiratory systems"	"R00-R09"	1190	6658420	17.9
+	"85+ years"	"85+"	"Symptoms and signs involving the digestive system and abdomen"	"R10-R19"	352	6658420	5.3
+	"85+ years"	"85+"	"Symptoms and signs involving the nervous and musculoskeletal systems"	"R25-R29"	113	6658420	1.7
+	"85+ years"	"85+"	"Symptoms and signs involving cognition, perception, emotional state and behaviour"	"R40-R46"	146	6658420	2.2
+	"85+ years"	"85+"	"Symptoms and signs involving speech and voice"	"R47-R49"	10	6658420	Unreliable
+	"85+ years"	"85+"	"General symptoms and signs"	"R50-R68"	7930	6658420	119.1
+	"85+ years"	"85+"	"Abnormal findings on diagnostic imaging and in function studies, without diagnosis"	"R90-R94"	167	6658420	2.5
+	"85+ years"	"85+"	"Ill-defined and unknown causes of mortality"	"R95-R99"	2029	6658420	30.5
+	"85+ years"	"85+"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	109544	6658420	1645.2
+	"85+ years"	"85+"	"Transport accidents"	"V01-V99"	1202	6658420	18.1
+	"85+ years"	"85+"	"Other external causes of accidental injury"	"W00-X59"	24149	6658420	362.7
+	"85+ years"	"85+"	"Intentional self-harm"	"X60-X84"	1389	6658420	20.9
+	"85+ years"	"85+"	"Assault"	"X85-Y09"	122	6658420	1.8
+	"85+ years"	"85+"	"Event of undetermined intent"	"Y10-Y34"	81	6658420	1.2
+	"85+ years"	"85+"	"Complications of medical and surgical care"	"Y40-Y84"	868	6658420	13.0
+	"85+ years"	"85+"	"Sequelae of external causes of morbidity and mortality"	"Y85-Y89"	212	6658420	3.2
+"Total"	"85+ years"	"85+"			1012805	6658420	15210.9
+	"Not Stated"	"NS"	"Ischaemic heart diseases"	"I20-I25"	17	Not Applicable	Not Applicable
+	"Not Stated"	"NS"	"Ill-defined and unknown causes of mortality"	"R95-R99"	31	Not Applicable	Not Applicable
+	"Not Stated"	"NS"	"Other external causes of accidental injury"	"W00-X59"	20	Not Applicable	Not Applicable
+"Total"	"Not Stated"	"NS"			116	Not Applicable	Not Applicable
+"Total"					3383729	329484123	1027.0
+"---"
+"Dataset: Underlying Cause of Death, 1999-2020"
+"Query Parameters:"
+"Year/Month: 2020"
+"Group By: Ten-Year Age Groups; ICD Sub-Chapter"
+"Show Totals: True"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/ucd.html for more information."
+"---"
+"Query Date: Dec 6, 2022 4:36:49 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Mortality 1999-2020 on CDC WONDER Online Database, released in 2021. Data are from the Multiple Cause of Death Files,"
+"1999-2020, as compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative"
+"Program. Accessed at http://wonder.cdc.gov/ucd-icd10.html on Dec 6, 2022 4:36:49 PM"
+"---"
+Messages:
+"1. Rows with suppressed Deaths are hidden, but the Deaths and Population values in those rows are included in the totals. Use"
+"Quick Options above to show suppressed rows."
+"---"
+Caveats:
+"1. Data are Suppressed when the data meet the criteria for confidentiality constraints. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd.html#Assurance of Confidentiality."
+"2. Death rates are flagged as Unreliable when the rate is calculated with a numerator of 20 or less. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd.html#Unreliable."
+"3. Deaths of persons with Age ""Not Stated"" are included in ""All"" counts and rates, but are not distributed among age groups,"
+"so are not included in age-specific counts, age-specific rates or in any age-adjusted rates. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd.html#Not Stated."
+"4. The population figures for year 2020 are bridged-race estimates of the July 1 resident population, from the Vintage 2020"
+"postcensal series released by NCHS on September 22, 2021. The population figures for year 2019 are bridged-race estimates of the"
+"July 1 resident population, from the Vintage 2019 postcensal series released by NCHS on July 9, 2020. The population figures for"
+"year 2018 are bridged-race estimates of the July 1 resident population, from the Vintage 2018 postcensal series released by NCHS"
+"on June 25, 2019. The population figures for year 2017 are bridged-race estimates of the July 1 resident population, from the"
+"Vintage 2017 postcensal series released by NCHS on June 27, 2018. The population figures for year 2016 are bridged-race"
+"estimates of the July 1 resident population, from the Vintage 2016 postcensal series released by NCHS on June 26, 2017. The"
+"population figures for year 2015 are bridged-race estimates of the July 1 resident population, from the Vintage 2015 postcensal"
+"series released by NCHS on June 28, 2016. The population figures for year 2014 are bridged-race estimates of the July 1 resident"
+"population, from the Vintage 2014 postcensal series released by NCHS on June 30, 2015. The population figures for year 2013 are"
+"bridged-race estimates of the July 1 resident population, from the Vintage 2013 postcensal series released by NCHS on June 26,"
+"2014. The population figures for year 2012 are bridged-race estimates of the July 1 resident population, from the Vintage 2012"
+"postcensal series released by NCHS on June 13, 2013. The population figures for year 2011 are bridged-race estimates of the July"
+"1 resident population, from the Vintage 2011 postcensal series released by NCHS on July 18, 2012. Population figures for 2010"
+"are April 1 Census counts. The population figures for years 2001 - 2009 are bridged-race estimates of the July 1 resident"
+"population, from the revised intercensal county-level 2000 - 2009 series released by NCHS on October 26, 2012. Population"
+"figures for 2000 are April 1 Census counts. Population figures for 1999 are from the 1990-1999 intercensal series of July 1"
+"estimates. Population figures for the infant age groups are the number of live births. <br/><b>Note:</b> Rates and population"
+"figures for years 2001 - 2009 differ slightly from previously published reports, due to use of the population estimates which"
+"were available at the time of release."
+"5. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the"
+"resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/ucd.html#Age Group."
+"6. Beginning with the 2018 data, changes have been implemented that affect the counts for ICD-10 cause of death codes O00-O99"
+"compared to previous practice. In addition, data for the cause of death codes O00-O99 for 2003 through 2017 reflect differences"
+"in information available to individual states and probable errors. Caution should be used in interpreting these data. More"
+"information can be found at: https://www.cdc.gov/nchs/maternal-mortality/."
+"7. On March 11, 2021, the 2019 mortality data on CDC WONDER was updated with the 2019 mortality data updated by NCHS on March 4,"
+"2021 to include corrected information for residents of Texas affecting 5 records previously coded to cause code *U01.4,"
+"Terrorism involving firearms (homicide). The underlying and multiple cause of death codes for 5 records were corrected in the"
+"2019 data. Underlying and multiple cause of death codes for those 5 records were recoded to Assault (homicide) by other and"
+"unspecified firearm discharge, ICD-10 code X95. The corrected final death records replaces the data released on December 22,"
+"2020."
