@@ -28,5 +28,5 @@ st.dataframe(df)
 options = ["1-4", "5-14", "15-24", "25-34","35-44","45-54"," 55-64","65-74","75-84","85+"]
 selected_age = st.selectbox("Select Age Range", options)
 
-st.barchart(df[df['Ten-Year Age Groups Code']==selected_age],x="ICD Sub-Chapter",y="Deaths")
+st.bar_chart(df[df['Ten-Year Age Groups Code']==selected_age],x="ICD Sub-Chapter",y="Deaths")
 
