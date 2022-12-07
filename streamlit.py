@@ -1,4 +1,5 @@
 import streamlit as st
+import altair as alt
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -28,5 +29,10 @@ st.dataframe(df)
 options = ["1-4", "5-14", "15-24", "25-34","35-44","45-54"," 55-64","65-74","75-84","85+"]
 selected_age = st.selectbox("Select Age Range", options)
 
-st.bar_chart(df[df['Ten-Year Age Groups Code']==selected_age].sort_values("Deaths",ascending=False),x="ICD Sub-Chapter",y="Deaths")
+data = df[df['Ten-Year Age Groups Code']==selected_age]
 
+st.write(data)
+st.write(alt.Chart(data).mark_bar().encode(
+    x=alt.X('ICD Sub-Chapter', sort=None),
+    y='Deaths',
+))
