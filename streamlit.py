@@ -35,4 +35,4 @@ st.write(data)
 st.altair_chart(alt.Chart(data).mark_bar().encode(
     x=alt.X('ICD Sub-Chapter', sort=None),
     y='Deaths',
-))
+), use_container_width=True)
