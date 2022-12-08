@@ -8,6 +8,8 @@ from PIL import Image
 import seaborn as sns
 import textwrap
 from matplotlib.colors import ListedColormap
+from data_cleaning import keep_ages_under_1
+
 
 df = pd.read_pickle("data/cleaned_dataframe.pkl")
 
@@ -34,6 +36,7 @@ all_ages = [
   "1-4", "5-14", "15-24", "25-34", "35-44", "45-54", "55-64", "65-74", "75-84",
   "85+"
 ]
+
 if keep_ages_under_1:
   all_ages.insert(0, "1")
 
