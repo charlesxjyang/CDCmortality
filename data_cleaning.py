@@ -133,12 +133,10 @@ all_ages = [
 ]
 if keep_ages_under_1:
   all_ages.insert(0, "1")
+  
+texts,cats = np.empty(
+  (n_largest, len(all_ages)), dtype=object),np.empty((n_largest,len(all_ages))) 
 
-values, texts,cats = np.empty((n_largest, len(all_ages))), np.empty(
-  (n_largest, len(all_ages)),
-  dtype=object),np.empty((n_largest,len(all_ages)))  #top 10 cause of death by 11 age groups
-#df[['Crude Rate']] =df[['Crude Rate']].astype(float)
-entries = []
 def one_hot_encode_category(sub_chapter):
   if sub_chapter == "Homocide":
     return 0
@@ -150,6 +148,7 @@ def one_hot_encode_category(sub_chapter):
     return 3
   else:
     return -1
+  
 for idx, age in enumerate(all_ages):
   sub_df = df[df['Ten-Year Age Groups Code'] == age]
   vals = sub_df['Deaths'].values
@@ -157,19 +156,13 @@ for idx, age in enumerate(all_ages):
   assert len(vals) == n_largest
   assert len(codes) == n_largest
   values[:, idx] = vals
-  new_codes = [textwrap.fill(c,25) + "\n" + str(v) for v,c in zip(vals,codes)]
+  new_codes = [textwrap.fill(c,20) + "\n" + str(v) for v,c in zip(vals,codes)]
   texts[:, idx] = new_codes
   cats[:,idx] = [one_hot_encode_category(c) for c in codes]
-  entries.append([c + "\n" + str(v) for v, c in zip(vals, codes)])
   
-#annotated_df = pd.DataFrame(np.array(entries).T,columns=all_ages)
-#annotated_df.to_pickle("data/annotated_df.pkl")
-  
-#print(type(annotated_df.to_html().replace("\n","<br>")))
-#print(annotated_df.to_html().replace("\n","<br>"))
+np.save("data/texts.npy",texts)
+np.save("data/cats.npy",cats)
 
-# for age in all_ages:
-#   annotated_df.loc[:,age] = []
 fig, ax = plt.subplots(figsize=(35,15))
 ax.tick_params(left=False, right=False) 
 cmap = ListedColormap(['lightgray','coral','mediumseagreen','deepskyblue','royalblue'])
