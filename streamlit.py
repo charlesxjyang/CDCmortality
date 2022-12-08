@@ -39,6 +39,6 @@ st.altair_chart(alt.Chart(data).mark_bar().encode(
 
 # Add a section at the bottom of the app
 st.markdown("---")
-st.markdown("<div align="center">This is a work in progress! Feedback and feature ideas are welcome on [Github](https://github.com/charlesxjyang/CDCmortality/issues)</div>",unsafe_allow_html=True)
+st.markdown('<div align="center">This is a work in progress! Feedback and feature ideas are welcome on [Github](https://github.com/charlesxjyang/CDCmortality/issues)</div>',unsafe_allow_html=True)
 # Add links to your GitHub and Twitter profiles
-st.markdown("<div align="center">Created by [Charles Yang](http://charlesyang.io)</div>",unsafe_allow_html=True)
+st.markdown('<div align="center">Created by [Charles Yang](http://charlesyang.io)</div>',unsafe_allow_html=True)
