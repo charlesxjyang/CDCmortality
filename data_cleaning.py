@@ -158,7 +158,7 @@ def create_heatmap(df):
     codes = sub_df['ICD Sub-Chapter']
     assert len(vals) == n_largest
     assert len(codes) == n_largest
-    new_codes = [textwrap.fill(c,20) + "\n" + str(v) for v,c in zip(vals,codes)]
+    new_codes = [textwrap.fill(c,20) + "\n" + "{:,}".format(v) for v,c in zip(vals,codes)]
     texts[:, idx] = new_codes
     cats[:,idx] = [one_hot_encode_category(c) for c in codes]
     
