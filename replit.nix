@@ -1,5 +1,6 @@
 { pkgs }: {
   deps = [
+    pkgs.vim
     pkgs.streamlit
     pkgs.python38Full
   ];
