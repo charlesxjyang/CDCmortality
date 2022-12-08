@@ -25,21 +25,20 @@ display_ages = ["1-4", "5-14", "15-24", "25-34", "35-44", "45-54", "55-64"]
 
 #### load data and data cleaning
 df = pd.read_csv(path_to_data, sep='\t', lineterminator='\r')
-index = df[df['Notes'] != '\n'].index
-df = df.drop(index, axis=0)
-index = df[df['Ten-Year Age Groups Code'] == 'NS'].index
-df = df.drop(index, axis=0)
+drop_notes = df[df['Notes'] != '\n'].index
+df = df.drop(drop_notes, axis=0)
+drop_age_code = df[df['Ten-Year Age Groups Code'] == 'NS'].index
+df = df.drop(drop_age_code, axis=0)
 #dropping infants because too complicated
 if not keep_ages_under_1:
-  index = df[df['Ten-Year Age Groups Code'] == '1'].index
-  df = df.drop(index, axis=0)
+  drop_1 = df[df['Ten-Year Age Groups Code'] == '1'].index
+  df = df.drop(drop_1, axis=0)
 
 df = df.drop(["Ten-Year Age Groups", "Population", "Notes"], axis=1)
 df = df.head(1538)  #remove readme stuff at end
 df[['Deaths']] = df[['Deaths']].astype(int)
-### Remove Traffic Deaths
 
-
+# Helper function to combine sub-codes into categories, based on https://www.cdc.gov/injury/wisqars/fatal_help/causes_icd10.html
 def combine_data(df, features_code, new_code, new_chapter):
 
   for age in df['Ten-Year Age Groups Code'].unique():
@@ -72,12 +71,8 @@ def combine_data(df, features_code, new_code, new_chapter):
     df = df.drop(df[(df["ICD Sub-Chapter Code"] == feat)].index, axis=0)
   return df
 
-
-#### Engineer Other Data
 df = combine_data(df, ["W00-X59", "Y85-Y89"], "W00-X59,Y85-Y89",
-                  'Unintentional Injuries*')
-
-#based off of this reference: https://www.cdc.gov/injury/wisqars/fatal_help/causes_icd10.html
+                  'Unintentional Injuries*') #recreate unintentional injuries category but without motor vehicle deaths
 
 df = combine_data(df, ["D50-D53", "D55-D59", "D60-D64"], "D50-D64", 'Anaemia')
 
@@ -108,11 +103,10 @@ df = combine_data(
   "P00-P96", 'Perinatal Period')
 
 
-## Shortening names
+# Helper function to rename a given subchapter code for readability
 def rename_data(df, code, new_name):
   df.loc[df['ICD Sub-Chapter Code'] == code, 'ICD Sub-Chapter'] = new_name
   return df
-
 
 df = rename_data(df, "G30-G31", 'Alzheimers')
 
@@ -126,8 +120,7 @@ df = rename_data(df, "X85-Y09", 'Homocide')
 
 df = rename_data(df, "V01-V99", 'Motor Vehicles')
 
-## Only keep n_largest causes of death and save dataframe
-
+# Only keep n_largest causes of death and save dataframe
 df = df.groupby('Ten-Year Age Groups Code').apply(
   lambda grp: grp.nlargest(n_largest, "Deaths")).reset_index(drop=True)
 
@@ -135,15 +128,13 @@ df[['Crude Rate']] = df[['Crude Rate']].astype(float)
 
 df.to_pickle("data/cleaned_dataframe.pkl")
 
-#11 distinct age groups
-
-
+# helper function to recreate CDC visualization by using a heatmap
 def create_heatmap(df):
 
   texts, cats = np.empty((n_largest, len(display_ages)),
                          dtype=object), np.empty(
                            (n_largest, len(display_ages)))
-
+  # we one hot encode these values to allow appropriate cell coloring later by using heatmap cmap
   def one_hot_encode_category(sub_chapter):
     if sub_chapter == "Homocide":
       return 0
@@ -174,7 +165,7 @@ def create_heatmap(df):
   ax.set_title("Based on CDC data", fontsize=20, pad=20)
   ax.tick_params(left=False, right=False)
   cmap = ListedColormap(
-    ['lightgray', 'coral', 'mediumseagreen', 'deepskyblue', 'royalblue'])
+    ['lightgray', 'coral', 'mediumseagreen', 'deepskyblue', 'royalblue']) # similar colors as the one in the original CDC plot https://www.cdc.gov/injury/wisqars/fatal_help/causes_icd10.html
   bounds = [-2, -0.5, 0.5, 1.5, 2.5, 3.5, 4.5]
   ax = sns.heatmap(cats,
                    annot=texts,
@@ -185,9 +176,8 @@ def create_heatmap(df):
                    square=True,
                    annot_kws={"size": 19})
   ax.set_xticklabels(display_ages, fontsize=20)
-  ax.set_yticks([])
-  ax.xaxis.tick_top()
-
+  ax.set_yticks([]) # remove y-ticks
+  ax.xaxis.tick_top() 
   ax.tick_params(top=False, bottom=False, right=False, left=False)
   return fig
 
