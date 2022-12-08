@@ -22,7 +22,7 @@ What exactly is "Unintentional Injury"? Well, its a host of many different types
 
 st.markdown(intro_text)
 
-image = Image.open('assets/WISQARS_original_data.jpeg')
+image = Image.open('assets/WISQARS_original_data_snip.jpeg')
 
 st.image(image, caption='Original CDC data visualization from here: https://wisqars.cdc.gov/data/lcd/home')
 
