@@ -98,7 +98,7 @@ data = df[df['Ten-Year Age Groups Code']==selected_age][['Ten-Year Age Groups Co
 st.altair_chart(alt.Chart(data).mark_bar().encode(
     x=alt.X('ICD Sub-Chapter', sort=None),
     y='Deaths',
-).properties(title={text=f"Top {n_largest} Causes of Death for Ages {selected_age}, United States",subtitle='Based on data from CDC'}), use_container_width=True)
+).properties(title={"text":f"Top {n_largest} Causes of Death for Ages {selected_age}, United States","subtitle":'Based on data from CDC'}), use_container_width=True)
 
 # Add a section at the bottom of the app
 st.markdown("---")
