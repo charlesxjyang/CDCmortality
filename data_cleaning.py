@@ -140,7 +140,7 @@ df.to_pickle("data/cleaned_dataframe.pkl")
 def create_heatmap(df):
     
   texts,cats = np.empty(
-    (n_largest, len(all_ages)), dtype=object),np.empty((n_largest,len(all_ages))) 
+    (n_largest, len(display_ages)), dtype=object),np.empty((n_largest,len(display_ages))) 
   
   def one_hot_encode_category(sub_chapter):
     if sub_chapter == "Homocide":
@@ -154,7 +154,7 @@ def create_heatmap(df):
     else:
       return -1
     
-  for idx, age in enumerate(all_ages):
+  for idx, age in enumerate(display_ages):
     sub_df = df[df['Ten-Year Age Groups Code'] == age]
     vals = sub_df['Deaths'].values
     codes = sub_df['ICD Sub-Chapter']
@@ -174,7 +174,7 @@ def create_heatmap(df):
                    fmt="",
                    cbar=False,
                    cmap=cmap,linewidths=5,square=True, annot_kws={"size":19})
-  ax.set_xticklabels(all_ages,fontsize=20)
+  ax.set_xticklabels(display_ages,fontsize=20)
   ax.set_yticks([])
   ax.xaxis.tick_top()
   
