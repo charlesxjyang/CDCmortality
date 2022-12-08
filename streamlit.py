@@ -13,8 +13,6 @@ from data_cleaning import all_ages
 
 df = pd.read_pickle("data/cleaned_dataframe.pkl")
 
-annotated_df = pd.read_pickle("data/annotated_df.pkl")
-
 # Set the title of the app
 st.title("Visualizing CDC Cause of Death Data by Age Demographic")
 
