@@ -9,7 +9,6 @@ from PIL import Image
 df = pd.read_pickle("data/cleaned_dataframe.pkl")
 
 # Set the title of the app
-st.set_style("whitegrid")
 st.title("Visualizing CDC Cause of Death Data by Age Demographic")
 
 intro_text = '''
