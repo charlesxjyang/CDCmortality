@@ -67,8 +67,8 @@ for idx, age in enumerate(all_ages):
   entries.append([c + "\n" + str(v) for v, c in zip(vals, codes)])
 
 fig, ax = plt.subplots(figsize=(35,15))
-ax.set_title("{n_largest} Leading Causes of Death, United States",fontsize=28)
-fig.suptitle("2020, Both Sexes, All Ages, All Races",fontsize=20)
+fig.suptitle(f"{n_largest} Leading Causes of Death, United States",fontsize=28)
+ax.set_title("2020, Both Sexes, All Ages, All Races",fontsize=20)
 ax.tick_params(left=False, right=False) 
 cmap = ListedColormap(['lightgray','coral','mediumseagreen','deepskyblue','royalblue'])
 bounds = [-2,-0.5,0.5,1.5,2.5,3.5,4.5]
