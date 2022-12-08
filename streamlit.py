@@ -8,7 +8,6 @@ from PIL import Image
 import seaborn as sns
 from data_cleaning import display_ages, n_largest, create_heatmap
 
-
 df = pd.read_pickle("data/cleaned_dataframe.pkl")
 
 # Set the title of the app
@@ -24,8 +23,11 @@ st.markdown(intro_text)
 
 image = Image.open('assets/WISQARS_original_data_snip.jpeg')
 
-st.image(image, caption='Original CDC data visualization from here: https://wisqars.cdc.gov/data/lcd/home')
-
+st.image(
+  image,
+  caption=
+  'Original CDC data visualization from here: https://wisqars.cdc.gov/data/lcd/home'
+)
 
 transition_text = '''
 We pull the [CDC's own data](https://wonder.cdc.gov/controller/saved/D76/D316F097) to recreate the above plot. The only difference is that we separate out **Motor Vehicle's** from "Unintentional Injury". Small discrepancies exist due to updates to the dataset and discrepancies in coding.
@@ -38,15 +40,29 @@ st.write(fig)
 # Create the dropdown menu
 selected_age = st.selectbox("Select Age Range", display_ages)
 
-data = df[df['Ten-Year Age Groups Code']==selected_age][['Ten-Year Age Groups Code','ICD Sub-Chapter','Deaths']]
+data = df[df['Ten-Year Age Groups Code'] == selected_age][[
+  'Ten-Year Age Groups Code', 'ICD Sub-Chapter', 'Deaths'
+]]
 
 st.altair_chart(alt.Chart(data).mark_bar().encode(
-    x=alt.X('ICD Sub-Chapter', sort=None, axis=alt.Axis(labelAngle=-45,title="Cause of Death")),
-    y='Deaths',
-).properties(title={"text":f"Top {n_largest} Causes of Death for Ages {selected_age}, United States","subtitle":'Based on data from CDC'}), use_container_width=True)
+  x=alt.X('ICD Sub-Chapter',
+          sort=None,
+          axis=alt.Axis(labelAngle=-45, title="Cause of Death")),
+  y='Deaths',
+).properties(
+  title={
+    "text":
+    f"Top {n_largest} Causes of Death for Ages {selected_age}, United States",
+    "subtitle": 'Based on data from CDC'
+  }),
+                use_container_width=True)
 
 # Add a section at the bottom of the app
 st.markdown("---")
-st.markdown('<div align="center">This is a work in progress! Feedback and feature ideas are welcome on <a href="https://github.com/charlesxjyang/CDCmortality/issues">Github</a>. You can immediately play around with the data cleaning and plotting on <a href="https://replit.com/@charlesxjyang/CDCmortality">Replit</a> </div>',unsafe_allow_html=True)
+st.markdown(
+  '<div align="center">This is a work in progress! Feedback and feature ideas are welcome on <a href="https://github.com/charlesxjyang/CDCmortality/issues">Github</a>. You can play around with the data cleaning and plotting on <a href="https://replit.com/@charlesxjyang/CDCmortality">Replit</a> </div>',
+  unsafe_allow_html=True)
 # Add links to your GitHub and Twitter profiles
-st.markdown('<div align="center">Created by <a href="http://charlesyang.io">Charles Yang</a></div>',unsafe_allow_html=True)
+st.markdown(
+  '<div align="center">Created by <a href="http://charlesyang.io">Charles Yang</a></div>',
+  unsafe_allow_html=True)
