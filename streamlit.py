@@ -26,7 +26,7 @@ image = Image.open('assets/WISQARS_original_data.jpeg')
 st.image(image, caption='Original CDC data visualization from here: https://wisqars.cdc.gov/data/lcd/home')
 
 #st.dataframe(df)
-st.components.v1.html("<html>"+annotated_df.to_html().replace("\n","<br>")+"</html>)
+st.components.v1.html("<html>"+annotated_df.to_html().replace("\n","<br>")+"</html>")
 
 # Create the dropdown menu
 options = ["1-4", "5-14", "15-24", "25-34","35-44","45-54"," 55-64","65-74","75-84","85+"]
