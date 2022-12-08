@@ -21,6 +21,8 @@ all_ages = [
 if keep_ages_under_1:
     all_ages.insert(0, "1")
 
+display_ages = ["1-4", "5-14", "15-24", "25-34", "35-44", "45-54", "55-64"]
+
 #### load data and data cleaning
 df = pd.read_csv(path_to_data, sep='\t', lineterminator='\r')
 index = df[df['Notes'] != '\n'].index
@@ -158,7 +160,7 @@ def create_heatmap(df):
     codes = sub_df['ICD Sub-Chapter']
     assert len(vals) == n_largest
     assert len(codes) == n_largest
-    new_codes = [textwrap.fill(c,20) + "\n" + "{:,}".format(v) for v,c in zip(vals,codes)]
+    new_codes = [textwrap.fill(c,16) + "\n" + "{:,}".format(v) for v,c in zip(vals,codes)]
     texts[:, idx] = new_codes
     cats[:,idx] = [one_hot_encode_category(c) for c in codes]
     
@@ -171,7 +173,7 @@ def create_heatmap(df):
                    annot=texts,
                    fmt="",
                    cbar=False,
-                   cmap=cmap,linewidths=5,square=True, annot_kws={"size":12})
+                   cmap=cmap,linewidths=5,square=True, annot_kws={"size":19})
   ax.set_xticklabels(all_ages,fontsize=20)
   ax.set_yticks([])
   ax.xaxis.tick_top()
