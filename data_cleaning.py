@@ -127,54 +127,55 @@ df.to_pickle("data/cleaned_dataframe.pkl")
 
 #11 distinct age groups
 
-all_ages = [
-  "1-4", "5-14", "15-24", "25-34", "35-44", "45-54", "55-64", "65-74", "75-84",
-  "85+"
-]
-if keep_ages_under_1:
-  all_ages.insert(0, "1")
+def create_heatmap(df):
   
-texts,cats = np.empty(
-  (n_largest, len(all_ages)), dtype=object),np.empty((n_largest,len(all_ages))) 
-
-def one_hot_encode_category(sub_chapter):
-  if sub_chapter == "Homocide":
-    return 0
-  elif sub_chapter == 'Suicide':
-    return 1
-  elif sub_chapter == 'Motor Vehicles':
-    return 2
-  elif sub_chapter == 'Unintentional Deaths besides Motor Vehicles':
-    return 3
-  else:
-    return -1
+  all_ages = [
+    "1-4", "5-14", "15-24", "25-34", "35-44", "45-54", "55-64", "65-74", "75-84",
+    "85+"
+  ]
+  if keep_ages_under_1:
+    all_ages.insert(0, "1")
+    
+  texts,cats = np.empty(
+    (n_largest, len(all_ages)), dtype=object),np.empty((n_largest,len(all_ages))) 
   
-for idx, age in enumerate(all_ages):
-  sub_df = df[df['Ten-Year Age Groups Code'] == age]
-  vals = sub_df['Deaths'].values
-  codes = sub_df['ICD Sub-Chapter']
-  assert len(vals) == n_largest
-  assert len(codes) == n_largest
-  new_codes = [textwrap.fill(c,20) + "\n" + str(v) for v,c in zip(vals,codes)]
-  texts[:, idx] = new_codes
-  cats[:,idx] = [one_hot_encode_category(c) for c in codes]
+  def one_hot_encode_category(sub_chapter):
+    if sub_chapter == "Homocide":
+      return 0
+    elif sub_chapter == 'Suicide':
+      return 1
+    elif sub_chapter == 'Motor Vehicles':
+      return 2
+    elif sub_chapter == 'Unintentional Deaths besides Motor Vehicles':
+      return 3
+    else:
+      return -1
+    
+  for idx, age in enumerate(all_ages):
+    sub_df = df[df['Ten-Year Age Groups Code'] == age]
+    vals = sub_df['Deaths'].values
+    codes = sub_df['ICD Sub-Chapter']
+    assert len(vals) == n_largest
+    assert len(codes) == n_largest
+    new_codes = [textwrap.fill(c,20) + "\n" + str(v) for v,c in zip(vals,codes)]
+    texts[:, idx] = new_codes
+    cats[:,idx] = [one_hot_encode_category(c) for c in codes]
+    
   
-np.save("data/texts.npy",texts)
-np.save("data/cats.npy",cats)
-
-fig, ax = plt.subplots(figsize=(35,15))
-ax.tick_params(left=False, right=False) 
-cmap = ListedColormap(['lightgray','coral','mediumseagreen','deepskyblue','royalblue'])
-bounds = [-2,-0.5,0.5,1.5,2.5,3.5,4.5]
-ax = sns.heatmap(cats,
-                 annot=texts,
-                 fmt="",
-                 cbar=False,
-                 cmap=cmap,linewidths=5,square=True, annot_kws={"size":12})
-ax.set_xticklabels(all_ages,fontsize=20)
-ax.set_yticks([])
-ax.xaxis.tick_top()
-
-ax.tick_params(top=False,bottom=False,right=False,left=False)
-
+  fig, ax = plt.subplots(figsize=(35,15))
+  ax.tick_params(left=False, right=False) 
+  cmap = ListedColormap(['lightgray','coral','mediumseagreen','deepskyblue','royalblue'])
+  bounds = [-2,-0.5,0.5,1.5,2.5,3.5,4.5]
+  ax = sns.heatmap(cats,
+                   annot=texts,
+                   fmt="",
+                   cbar=False,
+                   cmap=cmap,linewidths=5,square=True, annot_kws={"size":12})
+  ax.set_xticklabels(all_ages,fontsize=20)
+  ax.set_yticks([])
+  ax.xaxis.tick_top()
+  
+  ax.tick_params(top=False,bottom=False,right=False,left=False)
+  return fig
+fig = create_heatmap(df)
 fig.savefig("assets/heatmap.png")
