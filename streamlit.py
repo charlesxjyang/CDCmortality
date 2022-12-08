@@ -22,7 +22,6 @@ What exactly is "Unintentional Injury"? Well, its a host of many different types
 st.markdown(intro_text)
 
 image = Image.open('assets/WISQARS_original_data_snip.jpeg')
-
 st.image(
   image,
   caption=
@@ -37,6 +36,7 @@ st.markdown(transition_text)
 
 fig = create_heatmap(df)
 st.write(fig)
+
 # Create the dropdown menu
 selected_age = st.selectbox("Select Age Range", display_ages)
 
@@ -62,7 +62,6 @@ st.markdown("---")
 st.markdown(
   '<div align="center">This is a work in progress! Feedback and feature ideas are welcome on <a href="https://github.com/charlesxjyang/CDCmortality/issues">Github</a>. You can play around with the data cleaning and plotting on <a href="https://replit.com/@charlesxjyang/CDCmortality">Replit</a> </div>',
   unsafe_allow_html=True)
-# Add links to your GitHub and Twitter profiles
 st.markdown(
   '<div align="center">Created by <a href="http://charlesyang.io">Charles Yang</a></div>',
   unsafe_allow_html=True)
