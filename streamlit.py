@@ -8,7 +8,7 @@ from PIL import Image
 import seaborn as sns
 import textwrap
 from matplotlib.colors import ListedColormap
-from data_cleaning import keep_ages_under_1, n_largest
+from data_cleaning import all_ages
 
 
 df = pd.read_pickle("data/cleaned_dataframe.pkl")
@@ -37,40 +37,7 @@ We pull the [CDC's own data](https://wonder.cdc.gov/controller/saved/D76/D316F09
 
 st.markdown(transition_text)
 
-all_ages = [
-  "1-4", "5-14", "15-24", "25-34", "35-44", "45-54", "55-64", "65-74", "75-84",
-  "85+"
-]
-
-if keep_ages_under_1:
-  all_ages.insert(0, "1")
-
-values, texts,cats = np.empty((n_largest, len(all_ages))), np.empty(
-  (n_largest, len(all_ages)),
-  dtype=object),np.empty((n_largest,len(all_ages)))  #top 10 cause of death by 11 age groups
-entries = []
-def one_hot_encode_category(sub_chapter):
-  if sub_chapter == "Homocide":
-    return 0
-  elif sub_chapter == 'Suicide':
-    return 1
-  elif sub_chapter == 'Motor Vehicles':
-    return 2
-  elif sub_chapter == 'Unintentional Deaths besides Motor Vehicles':
-    return 3
-  else:
-    return -1
-for idx, age in enumerate(all_ages):
-  sub_df = df[df['Ten-Year Age Groups Code'] == age]
-  vals = sub_df['Deaths'].values
-  codes = sub_df['ICD Sub-Chapter']
-  assert len(vals) == n_largest
-  assert len(codes) == n_largest
-  values[:, idx] = vals
-  new_codes = [textwrap.fill(c,20) + "\n" + "{:,}".format(v) for v,c in zip(vals,codes)]
-  texts[:, idx] = new_codes
-  cats[:,idx] = [one_hot_encode_category(c) for c in codes]
-  entries.append([c + "\n" + str(v) for v, c in zip(vals, codes)])
+cats,texts = np.load("data/cats.npy"),np.load("texts.npy")
 
 fig, ax = plt.subplots(figsize=(35,15))
 fig.suptitle(f"{n_largest} Leading Causes of Death, United States",fontsize=28)
@@ -86,7 +53,6 @@ ax = sns.heatmap(cats,
 ax.set_xticklabels(all_ages,fontsize=20)
 ax.set_yticks([])
 ax.xaxis.tick_top()
-
 ax.tick_params(top=False,bottom=False,right=False,left=False)
 st.write(fig)
 # Create the dropdown menu
