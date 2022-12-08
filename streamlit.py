@@ -35,7 +35,7 @@ We pull the [CDC's own data](https://wonder.cdc.gov/controller/saved/D76/D316F09
 
 st.markdown(transition_text)
 
-cats,texts = np.load("data/cats.npy"),np.load("texts.npy")
+cats,texts = np.load("data/cats.npy"),np.load("data/texts.npy")
 
 fig, ax = plt.subplots(figsize=(35,15))
 fig.suptitle(f"{n_largest} Leading Causes of Death, United States",fontsize=28)
