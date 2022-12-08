@@ -21,7 +21,7 @@ st.title("Visualizing CDC Cause of Death Data by Age Demographic")
 intro_text = '''
 The CDC provides data on the leading causes of death for Americans every year by age group. The figure shown below is straight from the CDC website itself. Immediately you notice that a very large category is "Unintentional Injury", which is the most common cause of death for ages 1-44. 
 
-What exactly is "Unintentional Injury"? Well, its a host of many different types of causes, but the most common is **Motor Vehicle Traffic**. This website uses CDC data to show what their own figure would look like if **Motor Vehicle Traffic** was its own cause of death.  
+What exactly is "Unintentional Injury"? Well, its a host of many different types of causes, but the most common is **Motor Vehicle's**. What would this plot look like if we separated out **Motor Vehicle's** as their own cause of death?
 '''
 
 st.markdown(intro_text)
@@ -30,6 +30,12 @@ image = Image.open('assets/WISQARS_original_data.jpeg')
 
 st.image(image, caption='Original CDC data visualization from here: https://wisqars.cdc.gov/data/lcd/home')
 
+
+transition_text = '''
+We pull the [CDC's own data](https://wonder.cdc.gov/controller/saved/D76/D316F097) to recreate the above plot. The only difference is that we separate out **Motor Vehicle's** from "Unintentional Injury". Small discrepancies exist due to updates to the dataset and discrepancies in coding.
+'''
+
+st.markdown(transition_text)
 
 all_ages = [
   "1-4", "5-14", "15-24", "25-34", "35-44", "45-54", "55-64", "65-74", "75-84",
@@ -61,14 +67,14 @@ for idx, age in enumerate(all_ages):
   assert len(vals) == n_largest
   assert len(codes) == n_largest
   values[:, idx] = vals
-  new_codes = [textwrap.fill(c,20) + "\n" + str(v) for v,c in zip(vals,codes)]
+  new_codes = [textwrap.fill(c,20) + "\n" + {:,}.format(str(v)) for v,c in zip(vals,codes)]
   texts[:, idx] = new_codes
   cats[:,idx] = [one_hot_encode_category(c) for c in codes]
   entries.append([c + "\n" + str(v) for v, c in zip(vals, codes)])
 
 fig, ax = plt.subplots(figsize=(35,15))
 fig.suptitle(f"{n_largest} Leading Causes of Death, United States",fontsize=28)
-ax.set_title("2020, Both Sexes, All Ages, All Races",fontsize=20,pad=35)
+ax.set_title("2020, Both Sexes, All Ages, All Races",fontsize=20,pad=30)
 ax.tick_params(left=False, right=False) 
 cmap = ListedColormap(['lightgray','coral','mediumseagreen','deepskyblue','royalblue'])
 bounds = [-2,-0.5,0.5,1.5,2.5,3.5,4.5]
@@ -92,7 +98,7 @@ data = df[df['Ten-Year Age Groups Code']==selected_age][['Ten-Year Age Groups Co
 st.altair_chart(alt.Chart(data).mark_bar().encode(
     x=alt.X('ICD Sub-Chapter', sort=None),
     y='Deaths',
-), use_container_width=True)
+).properties(title={text=f"Top {n_largest} Causes of Death for Ages {selected_age}, United States",subtitle='Based on data from CDC'}), use_container_width=True)
 
 # Add a section at the bottom of the app
 st.markdown("---")
