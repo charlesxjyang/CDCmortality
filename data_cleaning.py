@@ -13,6 +13,15 @@ n_largest = 5
 
 keep_ages_under_1 = False
 
+  all_ages = [
+    "1-4", "5-14", "15-24", "25-34", "35-44", "45-54", "55-64", "65-74", "75-84",
+    "85+"
+  ]
+
+  if keep_ages_under_1:
+    all_ages.insert(0, "1")
+    
+
 #### load data and data cleaning
 df = pd.read_csv(path_to_data, sep='\t', lineterminator='\r')
 index = df[df['Notes'] != '\n'].index
@@ -129,13 +138,6 @@ df.to_pickle("data/cleaned_dataframe.pkl")
 
 def create_heatmap(df):
   
-  all_ages = [
-    "1-4", "5-14", "15-24", "25-34", "35-44", "45-54", "55-64", "65-74", "75-84",
-    "85+"
-  ]
-  if keep_ages_under_1:
-    all_ages.insert(0, "1")
-    
   texts,cats = np.empty(
     (n_largest, len(all_ages)), dtype=object),np.empty((n_largest,len(all_ages))) 
   
@@ -175,7 +177,7 @@ def create_heatmap(df):
   ax.set_yticks([])
   ax.xaxis.tick_top()
   
-  ax.tick_params(top=False,bottom=False,right=False,left=False)
+ax.tick_params(top=False,bottom=False,right=False,left=False)
   return fig
 fig = create_heatmap(df)
 fig.savefig("assets/heatmap.png")
