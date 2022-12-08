@@ -8,7 +8,7 @@ from PIL import Image
 import seaborn as sns
 import textwrap
 from matplotlib.colors import ListedColormap
-from data_cleaning import all_ages
+from data_cleaning import all_ages, n_largest
 
 
 df = pd.read_pickle("data/cleaned_dataframe.pkl")
