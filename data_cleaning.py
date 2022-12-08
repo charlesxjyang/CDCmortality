@@ -12,6 +12,14 @@ path_to_data = "data/Underlying Cause of Death, 1999-2020.txt"
 n_largest = 5
 
 keep_ages_under_1 = False
+  
+all_ages = [
+    "1-4", "5-14", "15-24", "25-34", "35-44", "45-54", "55-64", "65-74", "75-84",
+    "85+"
+  ]
+
+if keep_ages_under_1:
+    all_ages.insert(0, "1")
 
 #### load data and data cleaning
 df = pd.read_csv(path_to_data, sep='\t', lineterminator='\r')
@@ -128,13 +136,6 @@ df.to_pickle("data/cleaned_dataframe.pkl")
 #11 distinct age groups
 
 def create_heatmap(df):
-  
-  all_ages = [
-    "1-4", "5-14", "15-24", "25-34", "35-44", "45-54", "55-64", "65-74", "75-84",
-    "85+"
-  ]
-  if keep_ages_under_1:
-    all_ages.insert(0, "1")
     
   texts,cats = np.empty(
     (n_largest, len(all_ages)), dtype=object),np.empty((n_largest,len(all_ages))) 
