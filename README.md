@@ -7,6 +7,8 @@ If you check out [CDC's interactive visualization on leading causes of death by 
 
 This repo separates out deaths from motor vehicles and regraphs the CDC plot. You'll see that cars are one of the most common causes of death for broad swathes of healthy Americans.
 
+![Leading Cause of Death with Motor Vehicles as separate category](assets/heatmap.png)
 
+This is a work in progress! Feedback and feature ideas are welcome on [Github](https://github.com/charlesxjyang/CDCmortality/issues). You can play around with the data cleaning and plotting on [Replit](https://replit.com/@charlesxjyang/CDCmortality)
 
 Created by [Charles Yang](http://charlesyang.io)
