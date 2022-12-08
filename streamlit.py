@@ -6,7 +6,7 @@ import pandas as pd
 from PIL import Image
 
 import seaborn as sns
-from data_cleaning import all_ages, n_largest, create_heatmap
+from data_cleaning import display_ages, n_largest, create_heatmap
 
 
 df = pd.read_pickle("data/cleaned_dataframe.pkl")
@@ -36,8 +36,7 @@ st.markdown(transition_text)
 fig = create_heatmap(df)
 st.write(fig)
 # Create the dropdown menu
-options = ["1-4", "5-14", "15-24", "25-34","35-44","45-54","55-64","65-74","75-84","85+"]
-selected_age = st.selectbox("Select Age Range", options)
+selected_age = st.selectbox("Select Age Range", display_ages)
 
 data = df[df['Ten-Year Age Groups Code']==selected_age][['Ten-Year Age Groups Code','ICD Sub-Chapter','Deaths']]
 
