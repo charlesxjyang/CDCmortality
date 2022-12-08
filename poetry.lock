@@ -404,7 +404,11 @@ optional = false
 python-versions = ">=3.8"
 
 [package.dependencies]
-numpy = {version = ">=1.20.3", markers = "python_version < \"3.10\""}
+numpy = [
+    {version = ">=1.20.3", markers = "python_version < \"3.10\""},
+    {version = ">=1.21.0", markers = "python_version >= \"3.10\""},
+    {version = ">=1.23.2", markers = "python_version >= \"3.11\""},
+]
 python-dateutil = ">=2.8.1"
 pytz = ">=2020.1"
 
@@ -928,8 +932,8 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "flake8 
 
 [metadata]
 lock-version = "1.1"
-python-versions = ">=3.9.0,<3.9.7"
-content-hash = "ab7a9bbb12bc8c25f910b659f6a33dbe6c11b1eec5b1ed8df2acc67e52fee261"
+python-versions = ">=3.9.0"
+content-hash = "eab307a6e51eca922d608843c9eb1a928fde1ef5651b88910d96fc907b247fb8"
 
 [metadata.files]
 aiohttp = []

@@ -14,7 +14,6 @@ keep_ages_under_1 =False
 df = pd.read_csv(path_to_data,
                  sep='\t',
                  lineterminator='\r')
-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
 index = df[df['Notes']!='\n'].index
 df = df.drop(index,axis=0)
 index = df[df['Ten-Year Age Groups Code'] == 
@@ -27,7 +26,7 @@ if not keep_ages_under_1:
 
 df = df.drop(["Ten-Year Age Groups", "Population", "Notes"],             axis=1)
 df = df.head(1538)  #remove readme stuff at end
-df[['Deaths']] =df[['Deaths']].astype(float)
+df[['Deaths']] = df[['Deaths']].astype(int)
 ### Remove Traffic Deaths
 
 def combine_data(df,features_code, new_code, new_chapter):
@@ -39,7 +38,8 @@ def combine_data(df,features_code, new_code, new_chapter):
       initialize = (initialize | (sub_df["ICD Sub-Chapter Code"]==feat))
     rows = initialize
     deaths = sub_df[rows]['Deaths'].sum()
-    crude_rate = sub_df[rows]['Crude Rate'].sum() #data cleaning problem here probably
+    sub_df.loc[rows,'Crude Rate'] = pd.to_numeric(sub_df[rows]['Crude Rate'],errors='coerce') # just ignore unreliable entries
+    crude_rate = sub_df[rows]['Crude Rate'].sum(skipna=True) 
   
     df = pd.concat([
       df,
@@ -100,10 +100,16 @@ df = rename_data(df,"X60-X84",'Suicide')
 
 df = rename_data(df,"X85-Y09",'Homocide')
 
+df = rename_data(df,"V01-V99",'Motor Vehicles')
 
-## Prepare to plot
+
+## Only keep n_largest causes of death and save dataframe
 
 df = df.groupby('Ten-Year Age Groups Code').apply(lambda grp: grp.nlargest(n_largest,"Deaths")).reset_index(drop=True)
+
+df[['Crude Rate']] = df[['Crude Rate']].astype(float)
+
+df.to_pickle("data/cleaned_dataframe.pkl")
 
 #11 distinct age groups
 
@@ -113,7 +119,6 @@ if keep_ages_under_1:
   
 values,texts = np.empty((n_largest,len(all_ages))),np.empty((n_largest,len(all_ages)),dtype=object) #top 10 cause of death by 11 age groups
 #df[['Crude Rate']] =df[['Crude Rate']].astype(float)
-df.to_pickle("data/tmp.pkl")
 
 for idx,age in enumerate(all_ages):
   sub_df = df[df['Ten-Year Age Groups Code'] == age] 
@@ -124,6 +129,7 @@ for idx,age in enumerate(all_ages):
   print(age)
   print(codes)
   print(vals)
+  print(sub_df['Crude Rate'].values)
   print(sub_df['ICD Sub-Chapter Code'])
   values[:,idx] = vals
   texts[:,idx] = codes

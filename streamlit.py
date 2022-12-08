@@ -29,7 +29,7 @@ st.dataframe(df)
 options = ["1-4", "5-14", "15-24", "25-34","35-44","45-54"," 55-64","65-74","75-84","85+"]
 selected_age = st.selectbox("Select Age Range", options)
 
-data = df[df['Ten-Year Age Groups Code']==selected_age]
+data = df[df['Ten-Year Age Groups Code']==selected_age][['Ten-Year Age Groups Codes','ICD Sub-Chapter','Deaths']]
 
 st.write(data)
 st.altair_chart(alt.Chart(data).mark_bar().encode(
