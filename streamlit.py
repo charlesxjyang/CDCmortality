@@ -41,7 +41,7 @@ selected_age = st.selectbox("Select Age Range", display_ages)
 data = df[df['Ten-Year Age Groups Code']==selected_age][['Ten-Year Age Groups Code','ICD Sub-Chapter','Deaths']]
 
 st.altair_chart(alt.Chart(data).mark_bar().encode(
-    x=alt.X('ICD Sub-Chapter', sort=None, axis=alt.Axis(labelAngle=-45)),
+    x=alt.X('ICD Sub-Chapter', sort=None, axis=alt.Axis(labelAngle=-45,title="Cause of Death")),
     y='Deaths',
 ).properties(title={"text":f"Top {n_largest} Causes of Death for Ages {selected_age}, United States","subtitle":'Based on data from CDC'}), use_container_width=True)
 

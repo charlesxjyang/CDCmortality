@@ -75,7 +75,7 @@ def combine_data(df, features_code, new_code, new_chapter):
 
 #### Engineer Other Data
 df = combine_data(df, ["W00-X59", "Y85-Y89"], "W00-X59,Y85-Y89",
-                  'Unintentional Deaths besides Motor Vehicles')
+                  'Unintentional Injuries*')
 
 #based off of this reference: https://www.cdc.gov/injury/wisqars/fatal_help/causes_icd10.html
 
@@ -166,6 +166,8 @@ def create_heatmap(df):
     
   
   fig, ax = plt.subplots(figsize=(35,15))
+  fig.suptitle(f"Top {n_largest} Causes of Death, United States",fontsize=32)
+  ax.set_title("Based on CDC data",fontsize=20,pad=20)
   ax.tick_params(left=False, right=False) 
   cmap = ListedColormap(['lightgray','coral','mediumseagreen','deepskyblue','royalblue'])
   bounds = [-2,-0.5,0.5,1.5,2.5,3.5,4.5]
