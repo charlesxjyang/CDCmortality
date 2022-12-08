@@ -67,7 +67,7 @@ for idx, age in enumerate(all_ages):
   assert len(vals) == n_largest
   assert len(codes) == n_largest
   values[:, idx] = vals
-  new_codes = [textwrap.fill(c,20) + "\n" + {:,}.format(str(v)) for v,c in zip(vals,codes)]
+  new_codes = [textwrap.fill(c,20) + "\n" + "{:,}".format(str(v)) for v,c in zip(vals,codes)]
   texts[:, idx] = new_codes
   cats[:,idx] = [one_hot_encode_category(c) for c in codes]
   entries.append([c + "\n" + str(v) for v, c in zip(vals, codes)])
