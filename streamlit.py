@@ -14,7 +14,7 @@ df = pd.read_pickle("data/cleaned_dataframe.pkl")
 st.title("Visualizing CDC Cause of Death Data by Age Demographic")
 
 intro_text = '''
-The CDC provides data on the leading causes of death for Americans every year by age group. The figure shown below is straight from the CDC website itself. Immediately you notice that a very large category is "Unintentional Injury", which is the most common cause of death for ages 1-44. 
+The CDC provides data on the leading causes of death for Americans every year by age group. The figure shown below is snipped version from the CDC website. Immediately you notice that a very large category is "Unintentional Injury", which is the most common cause of death for ages 1-44. 
 
 What exactly is "Unintentional Injury"? Well, its a host of many different types of causes, but the most common is **Motor Vehicle's**. What would this plot look like if we separated out **Motor Vehicle's** as their own cause of death?
 '''
@@ -30,7 +30,7 @@ st.image(
 )
 
 transition_text = '''
-We pull the [CDC's own data](https://wonder.cdc.gov/controller/saved/D76/D316F097) to recreate the above plot. The only difference is that we separate out **Motor Vehicle's** from "Unintentional Injury". Small discrepancies exist due to updates to the dataset and discrepancies in coding.
+We pull the [CDC's own data](https://wonder.cdc.gov/controller/saved/D76/D316F097) to recreate the above plot. The only difference is that we separate out Motor Vehicle's from "Unintentional Injury". Small discrepancies exist due to updates to the dataset and discrepancies in coding.
 '''
 
 st.markdown(transition_text)
