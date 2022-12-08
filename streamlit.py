@@ -8,6 +8,8 @@ from PIL import Image
 
 df = pd.read_pickle("data/cleaned_dataframe.pkl")
 
+annotated_df = pd.read_pickle("data/annotated_df.pkl")
+
 # Set the title of the app
 st.title("Visualizing CDC Cause of Death Data by Age Demographic")
 
@@ -23,7 +25,8 @@ image = Image.open('assets/WISQARS_original_data.jpeg')
 
 st.image(image, caption='Original CDC data visualization from here: https://wisqars.cdc.gov/data/lcd/home')
 
-st.dataframe(df)
+#st.dataframe(df)
+st.components.v1.html(annotated_df.to_html().replace("\n","<br>"))
 
 # Create the dropdown menu
 options = ["1-4", "5-14", "15-24", "25-34","35-44","45-54"," 55-64","65-74","75-84","85+"]
@@ -31,7 +34,6 @@ selected_age = st.selectbox("Select Age Range", options)
 
 data = df[df['Ten-Year Age Groups Code']==selected_age][['Ten-Year Age Groups Code','ICD Sub-Chapter','Deaths']]
 
-st.write(data)
 st.altair_chart(alt.Chart(data).mark_bar().encode(
     x=alt.X('ICD Sub-Chapter', sort=None),
     y='Deaths',
