@@ -30,7 +30,6 @@ image = Image.open('assets/WISQARS_original_data.jpeg')
 
 st.image(image, caption='Original CDC data visualization from here: https://wisqars.cdc.gov/data/lcd/home')
 
-#st.dataframe(df)
 
 all_ages = [
   "1-4", "5-14", "15-24", "25-34", "35-44", "45-54", "55-64", "65-74", "75-84",
@@ -75,7 +74,7 @@ ax = sns.heatmap(cats,
                  annot=texts,
                  fmt="",
                  cbar=False,
-                 cmap=cmap,linewidths=5,square=True, annot_kws={"size":16})
+                 cmap=cmap,linewidths=5,square=True, annot_kws={"size":14})
 ax.set_xticklabels(all_ages,fontsize=20)
 ax.set_yticks([])
 ax.xaxis.tick_top()
