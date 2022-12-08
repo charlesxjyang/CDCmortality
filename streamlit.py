@@ -6,9 +6,10 @@ import pandas as pd
 from PIL import Image
 
 
-df = pd.read_pickle("data/tmp.pkl")
+df = pd.read_pickle("data/cleaned_dataframe.pkl")
 
 # Set the title of the app
+st.set_style("whitegrid")
 st.title("Visualizing CDC Cause of Death Data by Age Demographic")
 
 intro_text = '''
@@ -36,3 +37,9 @@ st.altair_chart(alt.Chart(data).mark_bar().encode(
     x=alt.X('ICD Sub-Chapter', sort=None),
     y='Deaths',
 ), use_container_width=True)
+
+# Add a section at the bottom of the app
+st.markdown("---")
+st.markdown("This is a work in progress! Feedback and feature ideas are welcome on [Github](https://github.com/charlesxjyang/CDCmortality/issues)")
+# Add links to your GitHub and Twitter profiles
+st.markdown("Created by [Charles Yang](http://charlesyang.io)")
