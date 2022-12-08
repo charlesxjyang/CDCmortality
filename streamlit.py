@@ -62,7 +62,7 @@ for idx, age in enumerate(all_ages):
   assert len(vals) == n_largest
   assert len(codes) == n_largest
   values[:, idx] = vals
-  new_codes = [textwrap.fill(c,25) + "\n" + str(v) for v,c in zip(vals,codes)]
+  new_codes = [textwrap.fill(c,20) + "\n" + str(v) for v,c in zip(vals,codes)]
   texts[:, idx] = new_codes
   cats[:,idx] = [one_hot_encode_category(c) for c in codes]
   entries.append([c + "\n" + str(v) for v, c in zip(vals, codes)])
@@ -75,7 +75,7 @@ ax = sns.heatmap(cats,
                  annot=texts,
                  fmt="",
                  cbar=False,
-                 cmap=cmap,linewidths=5,square=True, annot_kws={"size":12})
+                 cmap=cmap,linewidths=5,square=True, annot_kws={"size":16})
 ax.set_xticklabels(all_ages,fontsize=20)
 ax.set_yticks([])
 ax.xaxis.tick_top()
