@@ -11,7 +11,7 @@ from data_cleaning import display_ages, n_largest, create_heatmap
 df = pd.read_pickle("data/cleaned_dataframe.pkl")
 
 # Set the title of the app
-st.title("Visualizing CDC Cause of Death Data by Age Demographic")
+st.title("CDC Leading Cause's of Death Data and Cars")
 
 intro_text = '''
 The CDC provides data on the leading causes of death for Americans every year by age group. The figure shown below is snipped version from the CDC website. Immediately you notice that a very large category is "Unintentional Injury", which is the most common cause of death for ages 1-44. 
