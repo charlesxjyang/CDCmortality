@@ -5,6 +5,9 @@ import numpy as np
 import pandas as pd
 from PIL import Image
 
+import seaborn as sns
+import textwrap
+from matplotlib.colors import ListedColormap
 
 df = pd.read_pickle("data/cleaned_dataframe.pkl")
 
@@ -26,8 +29,56 @@ image = Image.open('assets/WISQARS_original_data.jpeg')
 st.image(image, caption='Original CDC data visualization from here: https://wisqars.cdc.gov/data/lcd/home')
 
 #st.dataframe(df)
-st.components.v1.html("<html>"+annotated_df.to_html().replace("\n","<br>")+"</html>")
 
+all_ages = [
+  "1-4", "5-14", "15-24", "25-34", "35-44", "45-54", "55-64", "65-74", "75-84",
+  "85+"
+]
+if keep_ages_under_1:
+  all_ages.insert(0, "1")
+
+values, texts,cats = np.empty((n_largest, len(all_ages))), np.empty(
+  (n_largest, len(all_ages)),
+  dtype=object),np.empty((n_largest,len(all_ages)))  #top 10 cause of death by 11 age groups
+entries = []
+def one_hot_encode_category(sub_chapter):
+  if sub_chapter == "Homocide":
+    return 0
+  elif sub_chapter == 'Suicide':
+    return 1
+  elif sub_chapter == 'Motor Vehicles':
+    return 2
+  elif sub_chapter == 'Unintentional Deaths besides Motor Vehicles':
+    return 3
+  else:
+    return -1
+for idx, age in enumerate(all_ages):
+  sub_df = df[df['Ten-Year Age Groups Code'] == age]
+  vals = sub_df['Deaths'].values
+  codes = sub_df['ICD Sub-Chapter']
+  assert len(vals) == n_largest
+  assert len(codes) == n_largest
+  values[:, idx] = vals
+  new_codes = [textwrap.fill(c,25) + "\n" + str(v) for v,c in zip(vals,codes)]
+  texts[:, idx] = new_codes
+  cats[:,idx] = [one_hot_encode_category(c) for c in codes]
+  entries.append([c + "\n" + str(v) for v, c in zip(vals, codes)])
+
+fig, ax = plt.subplots(figsize=(35,15))
+ax.tick_params(left=False, right=False) 
+cmap = ListedColormap(['lightgray','coral','mediumseagreen','deepskyblue','royalblue'])
+bounds = [-2,-0.5,0.5,1.5,2.5,3.5,4.5]
+ax = sns.heatmap(cats,
+                 annot=texts,
+                 fmt="",
+                 cbar=False,
+                 cmap=cmap,linewidths=5,square=True, annot_kws={"size":12})
+ax.set_xticklabels(all_ages,fontsize=20)
+ax.set_yticks([])
+ax.xaxis.tick_top()
+
+ax.tick_params(top=False,bottom=False,right=False,left=False)
+st.write(fig)
 # Create the dropdown menu
 options = ["1-4", "5-14", "15-24", "25-34","35-44","45-54"," 55-64","65-74","75-84","85+"]
 selected_age = st.selectbox("Select Age Range", options)
