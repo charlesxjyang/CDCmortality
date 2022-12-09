@@ -27,7 +27,7 @@ st.image(
 )
 
 transition_text = '''
-What exactly constitutes an `Unintentional Injury`? Well, it serves as a bucket category for many different types of causes, but the most common cause of death contained within `Unintentional Injury` is `Motor vehicle, traffic`, that is, deaths that result from being hit by a car. What would this plot look like if we separated out `Motor Vehicles` as their own cause of death?
+What exactly constitutes an `Unintentional Injury`? Well, it serves as a bucket category for many different types of causes, but the most common cause of death contained within `Unintentional Injury` is `Motor Vehicle`, that is, deaths that result from being hit by a car. What would this plot look like if we separated out `Motor Vehicles` as their own cause of death?
 
 I pulled the [CDC's own data](https://wonder.cdc.gov/controller/saved/D76/D316F097) to recreate the above plot. The only difference is that we separate out `Motor Vehicles` from `Unintentional Injury`. Small discrepancies exist due to updates to the dataset and discrepancies in coding.
 '''
