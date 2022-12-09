@@ -72,7 +72,7 @@ def combine_data(df, features_code, new_code, new_chapter):
   return df
 
 df = combine_data(df, ["W00-X59", "Y85-Y89"], "W00-X59,Y85-Y89",
-                  'Unintentional Injuries*') #recreate unintentional injuries category but without motor vehicle deaths
+                  'Unintentional Injury*') #recreate unintentional injuries category but without motor vehicle deaths
 
 df = combine_data(df, ["D50-D53", "D55-D59", "D60-D64"], "D50-D64", 'Anaemia')
 
@@ -142,7 +142,7 @@ def create_heatmap(df):
       return 1
     elif sub_chapter == 'Motor Vehicles':
       return 2
-    elif sub_chapter == 'Unintentional Injuries*':
+    elif sub_chapter == 'Unintentional Injury*':
       return 3
     else:
       return -1
@@ -164,8 +164,8 @@ def create_heatmap(df):
   fig.suptitle(f"Top {n_largest} Causes of Death, United States", fontsize=32)
   ax.set_title("Based on CDC data", fontsize=20, pad=20)
   ax.tick_params(left=False, right=False)
-  cmap = ListedColormap(
-    ['lightgray', 'coral', 'mediumseagreen', 'deepskyblue', 'royalblue']) # similar colors as the one in the original CDC plot https://www.cdc.gov/injury/wisqars/fatal_help/causes_icd10.html
+  colors = np.array([[239,239,239],[252,141,98], [102,194,165], [120,180,200], [141,160,203]],dtype=float)/255.0
+  cmap = ListedColormap(colors) # similar colors as the one in the original CDC plot https://wisqars.cdc.gov/data/lcd/home
   bounds = [-2, -0.5, 0.5, 1.5, 2.5, 3.5, 4.5]
   ax = sns.heatmap(cats,
                    annot=texts,
