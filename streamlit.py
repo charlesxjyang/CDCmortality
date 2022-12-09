@@ -51,7 +51,7 @@ data = df[df['Ten-Year Age Groups Code'] == selected_age][[
   'Ten-Year Age Groups Code', 'ICD Sub-Chapter', 'Deaths'
 ]]
 
-st.altair_chart(alt.Chart(data).mark_bar(size=12).encode(
+st.altair_chart(alt.Chart(data).mark_bar(size=30).encode(
   x=alt.X('ICD Sub-Chapter',
           sort=None,
           axis=alt.Axis(labelAngle=-45, title="Cause of Death")),
