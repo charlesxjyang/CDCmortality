@@ -11,4 +11,12 @@ This repo separates out deaths from motor vehicles and regraphs the CDC plot. Yo
 
 This is a work in progress! Feedback and feature ideas are welcome on [Github](https://github.com/charlesxjyang/CDCmortality/issues). You can play around with the data cleaning and plotting on [Replit](https://replit.com/@charlesxjyang/CDCmortality)
 
+## Running the Streamlit app
+
+From the repository root run:
+
+```
+streamlit run app.py
+```
+
 Created by [Charles Yang](http://charlesyang.io)
